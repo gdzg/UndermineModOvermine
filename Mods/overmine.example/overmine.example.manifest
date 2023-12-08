@@ -1,0 +1,485 @@
+ManifestFileVersion: 0
+CRC: 4148038413
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28cfeba8754277a0b4cff7641e8f4bd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b9d5e780155e09050de0a791614ae76d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 544464033, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 1058728248, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: 1438000191, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 1826273678, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: 511953537, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1269266212, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -686398770, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -625819341, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1400506680, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -2084902116, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 2114942042, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 166979116, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -552951886, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 1913379070, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -976611119, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -214231816, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 302093662, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1015385941, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 1546088854, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1971764023, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1039079324, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1954460148, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1306655069, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -282301519, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 832402483, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1142304182, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -1009901399, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: 1256608078, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+- Class: 114
+  Script: {fileID: -819100962, guid: aa9e55d5ee3a04d4691053f60b5b81e1, type: 3}
+- Class: 114
+  Script: {fileID: -1708222392, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -1638229193, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -1982801911, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -42890355, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -1035995740, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: 1638799208, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: -1818083789, guid: 421ae4f72b4255642983b93487241616, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 059b6e4af22741c681f70e37629fa13f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9845f67baebf4f809c08a8389e0b6ac6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Effect/DisastrousStatusEffect.prefab
+- Assets/Resources/Sprite/GlennHex-104x124.png
+- Assets/Resources/LootTable/LootTableRelicShop.asset
+- Assets/Resources/Potion/Effect/PotionEmptyEffect.asset
+- Assets/Resources/Sprite/BombReduction-112x112.png
+- Assets/Resources/LocDB.asset
+- Assets/Resources/Relic/Data/FrozenOrbItem.asset
+- Assets/Resources/Potion/Prefab/TortoiselOilDrink.prefab
+- Assets/Resources/Relic/Effect/FireAxePickUp.asset
+- Assets/Resources/Curse/Prefab/Resistance.prefab
+- Assets/Resources/Curse/Effect/EaterPickUp.asset
+- Assets/Resources/Blessing/Evolution.prefab
+- Assets/Resources/Sprite/ApothicPendant-112x112.png
+- Assets/Resources/Relic/Effect/BrambleVestPickUp.asset
+- Assets/Resources/Potion/Prefab/GoldPotionDrink.prefab
+- Assets/Resources/Relic/Data/MealTicketSpecialItem.asset
+- Assets/Resources/Sprite/WalkingLight02-112x112.png
+- Assets/Resources/Relic/Prefab/PlantReaper.prefab
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Level 2.asset
+- Assets/Resources/Relic/Data/StarMarkedBucklerItem.asset
+- Assets/Resources/Curse/Effect/MiniaturizeEffect.asset
+- Assets/Resources/Effect/ExplodeStatusEffect.prefab
+- Assets/Resources/Relic/Prefab/HalfTimeBreak.prefab
+- Assets/Resources/Blessing/EvolutionEffect.asset
+- Assets/Resources/Curse/Effect/ElementBanEffect.asset
+- Assets/Resources/Sprite/Altar-112x112.png
+- Assets/Resources/Sprite/TortoiseShield-112x112.png
+- Assets/Resources/Relic/Data/SteelFleshItem.asset
+- Assets/Resources/Relic/Effect/MealTicketGoldEffect.asset
+- Assets/Resources/Hex/GlennHex.prefab
+- Assets/Resources/Sprite/Orb05-112x112.png
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Level 1.asset
+- Assets/Resources/Potion/Effect/HolyTonicDrinkEffect.asset
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Level 0.asset
+- Assets/Resources/Sprite/ScaleLordGemInvulnerable-112x112.png
+- Assets/Resources/Potion/Prefab/GoldPotionEquipment.prefab
+- Assets/Resources/Sprite/NightmareVoracious-112x112.png
+- Assets/Resources/Potion/Data/PotionEmptyItem.asset
+- Assets/Resources/Relic/Data/MealTicketHighItem.asset
+- Assets/Resources/Relic/Effect/StarMarkedBucklerEffect.asset
+- Assets/Resources/Relic/Prefab/SteelFleshBuff.prefab
+- Assets/Resources/Relic/Effect/DisastrousEffect.asset
+- Assets/Resources/Sprite/Poison01-112x112.png
+- Assets/Resources/Curse/Prefab/BrokenArmo.prefab
+- Assets/Resources/Relic/Effect/PlantReaperPickedUp.asset
+- Assets/Resources/Familiar/NPC_Hornet_1.png
+- Assets/Resources/Health/Effect/ArmorBreakerPickUp.asset
+- Assets/Resources/Potion/Prefab/QuickSilveEquipment.prefab
+- Assets/Resources/Blessing/SpeedPickUp.asset
+- Assets/Resources/Relic/Prefab/NaughtyBomb.prefab
+- Assets/Resources/Sprite/Potion20c-112x112.png
+- Assets/Resources/Relic/Data/PonzuScaleItem.asset
+- Assets/Resources/Sprite/SimpleChest02-112x112.png
+- Assets/Resources/Relic/Effect/FrostArmorPickUp.asset
+- Assets/Resources/Curse/Prefab/Inhibitor.prefab
+- Assets/Resources/Familiar/NPC_Mage_0.png
+- Assets/Resources/LootTable/LootTableFoodShop.asset
+- Assets/Resources/Effect/BleedStatusEffect.prefab
+- Assets/Resources/Sprite/Package-112x112.png
+- Assets/Resources/Hex/TerminusPicked Up.asset
+- Assets/Resources/Relic/Prefab/Erosion.prefab
+- Assets/Resources/Curse/Effect/ElementBanPickUp.asset
+- Assets/Resources/Relic/Effect/AllThatGlittersPickUp.asset
+- Assets/Resources/LootTable/LootTableRelicLegendary.asset
+- Assets/Resources/Blessing/SpeedEffect.asset
+- Assets/Resources/Potion/Effect/HourGlassPickup.asset
+- Assets/Resources/Curse/Prefab/Hidden.prefab
+- Assets/Resources/Curse/Prefab/ResourceShortage.prefab
+- Assets/Resources/Sprite/Bomb07-112x112.png
+- Assets/Resources/Sprite/BrambleVest-112x112.png
+- Assets/Resources/LootTable/LootTableHex.asset
+- Assets/Resources/Curse/Prefab/Miniaturizer.prefab
+- Assets/Resources/Effect/FrozenEffect.asset
+- Assets/Resources/Sprite/Darkness.png
+- Assets/Resources/Health/Effect/SandwichSmokedPickUp.asset
+- Assets/Resources/Relic/Effect/TimerRelicEffect.asset
+- Assets/Resources/Curse/Prefab/Darkness.prefab
+- Assets/Resources/Sprite/Tortoise_Oil.png
+- Assets/Resources/Relic/Effect/HeartEffect.asset
+- Assets/Resources/Health/Effect/SandwichPickUp.asset
+- Assets/Resources/Relic/Prefab/FrostArmor.prefab
+- Assets/Resources/Hex/Terminus.prefab
+- Assets/Resources/Curse/Effect/ResistanceEffect.asset
+- Assets/Resources/Familiar/NPC_Mage_1.png
+- Assets/Resources/Familiar/NPC_Mage_3.png
+- Assets/Resources/Relic/Effect/HalfTimeBreakPickUp.asset
+- Assets/Resources/Effect/FrozenStatusEffect.prefab
+- Assets/Resources/Blessing/PolluteBlessingItem.asset
+- Assets/Resources/Potion/Prefab/PotionEmptyDrink.prefab
+- Assets/Resources/Sprite/Parchment01-112x112.png
+- Assets/Resources/Relic/Prefab/SteelFlesh.prefab
+- Assets/Resources/LootTable/LootTablePotion.asset
+- Assets/Resources/References/GoldenDeliciousReference.asset
+- Assets/Resources/Relic/Effect/CrystalBastingPickUp.asset
+- Assets/Resources/LootTable/LootTableRelic.asset
+- Assets/Resources/Relic/Effect/CrystalBastingEffect.asset
+- Assets/Resources/Relic/Data/TimerRelicItem.asset
+- Assets/Resources/Curse/Data/DarknessItem.asset
+- Assets/Resources/Relic/Effect/SteelFleshBuffEffect.asset
+- Assets/Resources/Relic/Effect/PonzuScalePickUp.asset
+- Assets/Resources/Sprite/ambrosiaB-112x112.png
+- Assets/Resources/Blessing/PolluteBlessing.prefab
+- Assets/Resources/Relic/Prefab/TimerRelic.prefab
+- Assets/Resources/Potion/Effect/TimerEffect.asset
+- Assets/Resources/Sprite/BrambleVest01-112x112.png
+- Assets/Resources/Sprite/SandwichGolden-112x112.png
+- Assets/Resources/Curse/Data/ResourceShortageItem.asset
+- Assets/Resources/Relic/Effect/ErosionPickUp.asset
+- Assets/Resources/Effect/DisastrousEffect1.asset
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Picked Up.asset
+- Assets/Resources/Relic/Effect/VariationFloatBootEffect 1.asset
+- Assets/Resources/Relic/Prefab/HolyLightDevotion.prefab
+- Assets/Resources/Relic/Prefab/StarMarkedBuckler.prefab
+- Assets/Resources/Potion/Effect/PotionEmptyPickup.asset
+- Assets/Resources/Relic/Data/LustItem.asset
+- Assets/Resources/Health/Data/MashedPotatoesGarlic.asset
+- Assets/Resources/Familiar/NPC_Hornet_2.png
+- Assets/Resources/Relic/Prefab/FrozenOrb.prefab
+- Assets/Resources/Health/Data/PolluteBasicItem.asset
+- Assets/Resources/Health/Data/Sandwich.asset
+- Assets/Resources/Sprite/Crystal1-112x112.png
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Familiar Entity.prefab
+- Assets/Resources/Relic/Data/EndlessShacklesItem.asset
+- Assets/Resources/Relic/Effect/StandardRingPickUp.asset
+- Assets/Resources/Relic/Effect/NaughtyBombPickUp.asset
+- Assets/Resources/Effect/BleedEffect.asset
+- Assets/Resources/Blessing/SpeedItem.asset
+- Assets/Resources/Relic/Data/VariationFloatBootItem.asset
+- Assets/Resources/Sprite/Ring05-112x112.png
+- Assets/Resources/Sprite/Luck-112x112.png
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Animation Data.asset
+- Assets/Resources/Familiar/NPC_Hornet_4.png
+- Assets/Resources/References/HealthSReference.asset
+- Assets/Resources/Curse/Effect/HiddenPickUp.asset
+- Assets/Resources/Curse/Effect/InhibitorEffect.asset
+- Assets/Resources/Sprite/ArmorShard-112x112.png
+- Assets/Resources/Potion/Data/QuickSilverItem.asset
+- Assets/Resources/Health/Effect/ArmorShardSpecialPickUp.asset
+- Assets/Resources/Relic/Data/StandardRingItem.asset
+- Assets/Resources/References/PlagueReference.asset
+- Assets/Resources/Relic/Prefab/BrambleVest.prefab
+- Assets/Resources/Relic/Data/GhostlyIchorItem.asset
+- Assets/Resources/Sprite/Miniaturizer-112x112.png
+- Assets/Resources/Potion/Prefab/TimerDrink.prefab
+- Assets/Resources/Potion/Effect/HourGlassEffect1.asset
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Despawns.asset
+- Assets/Resources/Sprite/Speed-112x112.png
+- Assets/Resources/Curse/Effect/ResourceShortageEffect.asset
+- Assets/Resources/Sprite/Orb06-112x112.png
+- Assets/Resources/Relic/Effect/AllThatGlittersEffect.asset
+- Assets/Resources/Curse/Effect/GreedyCatEffect.asset
+- Assets/Resources/Relic/Prefab/GhostlyIchor.prefab
+- Assets/Resources/Effect/HolyTonicEffect.asset
+- Assets/Resources/Sprite/All_That_Glitters.png
+- Assets/Resources/Health/Data/SandwichSmoked.asset
+- Assets/Resources/Curse/Data/GreedyCatItem.asset
+- Assets/Resources/Curse/Prefab/BloodAltar.prefab
+- Assets/Resources/Relic/Effect/HeartPickUp.asset
+- Assets/Resources/Sprite/GhostlyIchor-112x112.png
+- Assets/Resources/Effect/ExplodeEffect.asset
+- Assets/Resources/Health/Data/Turkey.asset
+- Assets/Resources/Curse/Effect/MiniaturizePickUp.asset
+- Assets/Resources/Effect/FrozenDamageEffect.asset
+- Assets/Resources/Relic/Effect/ErosionEffect.asset
+- Assets/Resources/Relic/Prefab/Disastrous.prefab
+- Assets/Resources/Curse/Prefab/Pollute.prefab
+- Assets/Resources/References/FireAxeEntityReference.prefab
+- Assets/Resources/Relic/Effect/MoldyCrossBunPickUp.asset
+- Assets/Resources/Relic/Effect/LustPickUp.asset
+- Assets/Resources/Potion/Prefab/TortoiselOilEquipment.prefab
+- Assets/Resources/Sprite/Lust.png
+- Assets/Resources/Curse/Effect/BrokenArmorEffect.asset
+- Assets/Resources/Relic/Data/MoldyCrossBunItem.asset
+- Assets/Resources/Potion/Effect/GoldPotionPickup.asset
+- Assets/Resources/Curse/Effect/BloodAltarEffect.asset
+- Assets/Resources/Curse/Effect/InhibitorPickUp.asset
+- Assets/Resources/Curse/Effect/HiddenEffect.asset
+- Assets/Resources/Relic/Effect/LustEffect.asset
+- Assets/Resources/Health/Effect/BrusselSproutsCrispyPickUp.asset
+- Assets/Resources/Curse/Effect/PolluteEffect.asset
+- Assets/Resources/Sprite/Famine01-112x112.png
+- Assets/Resources/Relic/Data/NaughtyBombItem.asset
+- Assets/Resources/Curse/Effect/DarknessPickUp.asset
+- Assets/Resources/Relic/Effect/DisastrousPickUp.asset
+- Assets/Resources/Potion/Prefab/HolyTonicEquipment.prefab
+- Assets/Resources/Relic/Effect/StandardRingEffect.asset
+- Assets/Resources/Relic/Effect/MealTicketHighEffect.asset
+- Assets/Resources/Relic/Effect/MoldyCrossBunEffect.asset
+- Assets/Resources/Relic/Prefab/Heart.prefab
+- Assets/Resources/Sprite/Terminus.png
+- Assets/Resources/Sprite/Spark1-112x112.png
+- Assets/Resources/Sprite/PotionEmpty-112x112.png
+- Assets/Resources/Relic/Prefab/MealTicketSpecial.prefab
+- Assets/Resources/Sprite/BrusselSproutsCrispy-112x112.png
+- Assets/Resources/Relic/Effect/MealTicketSpecialPickUp.asset
+- Assets/Resources/Curse/Data/ResistanceItem.asset
+- Assets/Resources/Curse/Effect/GreedyCatPickUp.asset
+- Assets/Resources/Sprite/Timer-112x112.png
+- Assets/Resources/Potion/Effect/GoldPotionEffect.asset
+- Assets/Resources/Relic/Data/HalfTimeBreakItem.asset
+- Assets/Resources/Curse/Prefab/Eater.prefab
+- Assets/Resources/Hex/GlennHexPicked Up.asset
+- Assets/Resources/LootTable/LootTablePotionShop.asset
+- Assets/Resources/Relic/Effect/FrostArmorEffect.asset
+- Assets/Resources/Blessing/PolluteBlessingPickUp.asset
+- Assets/Resources/Relic/Effect/GhostlyIchorPickUp.asset
+- Assets/Resources/Potion/Prefab/HourGlassEquipment.prefab
+- Assets/Resources/Sprite/MealTicket04-112x112.png
+- Assets/Resources/Relic/Effect/StarMarkedBucklerPickUp.asset
+- Assets/Resources/Health/Data/MashedPotatoes.asset
+- Assets/Resources/Curse/Data/PolluteItem.asset
+- Assets/Resources/Potion/Data/HourGlassItem.asset
+- Assets/Resources/Relic/Effect/EndlessShacklesPickUp.asset
+- Assets/Resources/Potion/Data/GoldPotionItem.asset
+- Assets/Resources/Relic/Data/CrystalBastingItem.asset
+- Assets/Resources/Effect/PauseStatusEffect.prefab
+- Assets/Resources/Health/Effect/SandwichGoldenPickUp.asset
+- Assets/Resources/Curse/Effect/ResistancePickUp.asset
+- Assets/Resources/Sprite/MealTicket02-112x112.png
+- Assets/Resources/Familiar/NPC_Mage_2.png
+- Assets/Resources/Familiar/NPC_Snail_2.png
+- Assets/Resources/Relic/Effect/NaughtyBombEffect.asset
+- Assets/Resources/BehaviorDesignerGlobalVariables.asset
+- Assets/Resources/Familiar/NPC_Hornet_3.png
+- Assets/Resources/Sprite/Meatball_0-112x112.png
+- Assets/Resources/Blessing/EvolutionItem.asset
+- Assets/Resources/Curse/Effect/EaterEffect.asset
+- Assets/Resources/Health/Data/ArmorBreaker.asset
+- Assets/Resources/Relic/Prefab/MoldyCrossBun.prefab
+- Assets/Resources/Sprite/Turkey-112x112.png
+- Assets/Resources/Sprite/Hourglass-112x112.png
+- Assets/Resources/Hex/TerminusItem.asset
+- Assets/Resources/Familiar/NPC_Hornet_5.png
+- Assets/Resources/Sprite/SalamderTail01-112x112.png
+- Assets/Resources/Relic/Data/SteelFleshBuffItem.asset
+- Assets/Resources/Sprite/Sandwich-112x112.png
+- Assets/Resources/Relic/Prefab/Lust.prefab
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Familiar Skin.asset
+- Assets/Resources/Sprite/TurkeySmoked-112x112.png
+- Assets/Resources/Sprite/MirrorShieldPropHit_0-112x112.png
+- Assets/Resources/Potion/Effect/TortoiselOilEffect.asset
+- Assets/Resources/Health/Effect/MashedPotatoesPickUp.asset
+- Assets/Resources/Sprite/MaliciousIntent-112x112.png
+- Assets/Resources/Sprite/GrapplingHook-112x112.png
+- Assets/Resources/Sprite/StarMarkedBuckler-112x112.png
+- Assets/Resources/Relic/Effect/PonzuScaleEffect.asset
+- Assets/Resources/Potion/Effect/QuickSilvePickup.asset
+- Assets/Resources/Relic/Data/PlantReaperItem.asset
+- Assets/Resources/Sprite/RuneSton-112x112.png
+- Assets/Resources/Curse/Data/InhibitorItem.asset
+- Assets/Resources/Relic/Data/DisastrousItem.asset
+- Assets/Resources/Hex/TerminusEffect.asset
+- Assets/Resources/Curse/Effect/PollutePickUp.asset
+- Assets/Resources/Health/Data/BrusselSprouts.asset
+- Assets/Resources/Sprite/Eye01-112x112.png
+- Assets/Resources/Effect/PauseEffect.asset
+- Assets/Resources/Sprite/BloodPact-112x112.png
+- Assets/Resources/Sprite/Bomb06-112x112.png
+- Assets/Resources/Relic/Effect/PlantReaperEffect.asset
+- Assets/Resources/LootTable/LootTableBlessing.asset
+- Assets/Resources/Health/Data/BrusselSproutsCrispy.asset
+- Assets/Resources/Relic/Effect/MealTicketSpecialEffect.asset
+- Assets/Resources/Relic/Prefab/StandardRing.prefab
+- Assets/Resources/Relic/Effect/FireAxeEffect.asset
+- Assets/Resources/Potion/Effect/TortoiselOilPickup.asset
+- Assets/Resources/Familiar/NPC_Snail_0.png
+- Assets/Resources/Potion/Prefab/HourGlassDrink.prefab
+- Assets/Resources/Health/Data/ArmorShardSpecial.asset
+- Assets/Resources/Familiar/NPC_Hornet_0.png
+- Assets/Resources/Potion/Effect/QuickSilveDoPortal.asset
+- Assets/Resources/Sprite/SteelFlesh-112x112.png
+- Assets/Resources/Relic/Data/HeartItem.asset
+- Assets/Resources/Relic/Effect/TimerRelicPickUp.asset
+- Assets/Resources/Relic/Data/HolyLightDevotionItem.asset
+- Assets/Resources/Curse/Data/EaterItem.asset
+- Assets/Resources/Health/Effect/TurkeyPickUp.asset
+- Assets/Resources/Relic/Effect/SteelFleshPickUp.asset
+- Assets/Resources/Curse/Data/BrokenArmorItem.asset
+- Assets/Resources/Blessing/PolluteBlessingEffect.asset
+- Assets/Resources/LootTable/LootTableMajorCurse.asset
+- Assets/Resources/Curse/Data/MiniaturizeItem.asset
+- Assets/Resources/Hex/GlennHexEffect.asset
+- Assets/Resources/Curse/Data/ElementBanItem.asset
+- Assets/Resources/Blessing/EvolutionPicked Up.asset
+- Assets/Resources/Relic/Data/ErosionItem.asset
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Familiar.asset
+- Assets/Resources/Potion/Data/TimerItem.asset
+- Assets/Resources/Relic/Effect/FrozenOrbPickUp.asset
+- Assets/Resources/Sprite/Secrecy-112x112.png
+- Assets/Resources/Relic/Prefab/AllThatGlitters.prefab
+- Assets/Resources/Familiar/NPC_Snail_1.png
+- Assets/Resources/LootTable/LootTableItem.asset
+- Assets/Resources/Sprite/MashedPotatoes-112x112.png
+- Assets/Resources/Health/Data/TurkeyGolden.asset
+- Assets/Resources/Relic/Prefab/MealTicketGold.prefab
+- Assets/Resources/Relic/Prefab/VariationFloatBoot.prefab
+- Assets/Resources/Sprite/MealTicket03-112x112.png
+- Assets/com.overmine.editor/Editor/Resources/References/Decorators/Potion Decorator.prefab
+- Assets/Resources/Relic/Effect/EndlessShacklesEffect.asset
+- Assets/Resources/Potion/Prefab/HolyTonicDrink.prefab
+- Assets/Resources/Sprite/Crystal-112x112.png
+- Assets/Resources/Health/Effect/BrusselSproutsPickUp.asset
+- Assets/Resources/Relic/Prefab/MealTicketHigh.prefab
+- Assets/Resources/Relic/Data/BrambleVestItem.asset
+- Assets/Resources/Relic/Effect/MealTicketHighPickUp.asset
+- Assets/Resources/Potion/Effect/QuickSilveEffect.asset
+- Assets/Resources/LootTable/LootTableFood.asset
+- Assets/Resources/References/HealthLReference.asset
+- Assets/Resources/Health/Effect/MashedPotatoesGarlicPickUp.asset
+- Assets/Resources/Sprite/SandwichSmoked-112x112.png
+- Assets/Resources/Potion/Prefab/TimerEquipment.prefab
+- Assets/Resources/Relic/Effect/VariationFloatBootEffect.asset
+- Assets/Resources/Relic/Data/MealTicketGoldItem.asset
+- Assets/Resources/Relic/Data/AllThatGlittersItem.asset
+- Assets/Resources/Relic/Effect/MealTicketGoldPickUp.asset
+- Assets/Resources/Curse/Effect/BloodAltarPickUp.asset
+- Assets/Resources/Relic/Effect/BrambleVestEffect.asset
+- Assets/Resources/Curse/Effect/DarknessEffect.asset
+- Assets/Resources/Curse/Effect/MiniaturizeCalculateDamageEffect.asset
+- Assets/Resources/Potion/Effect/TimerPickup.asset
+- Assets/Resources/Relic/Effect/SteelFleshBuffPickUp.asset
+- Assets/Resources/Sprite/Extra_Float_Boots.png
+- Assets/Resources/Relic/Effect/HolyLightDevotionPickUp.asset
+- Assets/Resources/Relic/Prefab/EndlessShackles.prefab
+- Assets/Resources/Potion/Data/HolyTonicItem.asset
+- Assets/Resources/Sprite/Heart-112x112.png
+- Assets/Resources/Potion/Effect/HolyTonicPickup.asset
+- Assets/com.overmine.editor/Editor/Resources/Templates/Familiar/Gain XP.asset
+- Assets/Resources/Blessing/Speed.prefab
+- Assets/Resources/Relic/Effect/SteelFleshEffect.asset
+- Assets/Resources/Health/Effect/TurkeyGoldenPickUp.asset
+- Assets/Resources/Health/Data/SandwichGolden.asset
+- Assets/Resources/Sprite/MashedPotatoesGarlic-112x112.png
+- Assets/Resources/Curse/Data/HiddenItem.asset
+- Assets/Resources/Potion/Prefab/QuickSilveDrink.prefab
+- Assets/Resources/Relic/Prefab/FireAxe.prefab
+- Assets/Resources/Sprite/Devotion03-112x112.png
+- Assets/Resources/Sprite/Broken_Armor.png
+- Assets/Resources/Sprite/FireAxe-112x112.png
+- Assets/Resources/Sprite/RatNestLarge.png
+- Assets/Resources/Relic/Data/FrostArmorItem.asset
+- Assets/Resources/Curse/Effect/BrokenArmorPickUp.asset
+- Assets/Resources/Relic/Effect/VariationFloatBootPickUp.asset
+- Assets/Resources/Familiar/NPC_Snail_3.png
+- Assets/Resources/Sprite/BrusselSprouts-112x112.png
+- Assets/Resources/Potion/Prefab/PotionEmptyEquipment.prefab
+- Assets/Resources/Sprite/ArmorBreaker-112x112.png
+- Assets/Resources/Relic/Effect/GhostlyIchorEffect.asset
+- Assets/Resources/Curse/Prefab/ElementBan.prefab
+- Assets/Resources/Relic/Effect/FrozenOrbEffect.asset
+- Assets/Resources/References/ArmorShardReference.asset
+- Assets/Resources/Curse/Data/BloodAltarItem.asset
+- Assets/Resources/Relic/Prefab/PonzuScale.prefab
+- Assets/Resources/Curse/Prefab/GreedyCat.prefab
+- Assets/Resources/Effect/HolyTonic.prefab
+- Assets/Resources/Sprite/Devotion02-112x112.png
+- Assets/Resources/Hex/GlennHexItem.asset
+- Assets/Resources/Relic/Effect/HalfTimeBreakEffect.asset
+- Assets/Resources/Potion/Data/TortoiselOilItem.asset
+- Assets/Resources/References/HealthMReference.asset
+- Assets/Resources/Curse/Effect/ResourceShortagePickUp.asset
+- Assets/Resources/Relic/Data/FireAxeItem.asset
+- Assets/Resources/Relic/Effect/HolyLightDevotionEffect.asset
+- Assets/Resources/References/StarvationReference.asset
+- Assets/Resources/Sprite/Quicksilver.png
+- Assets/Resources/Potion/Effect/HourGlassEffect.asset
+- Assets/Resources/Relic/Prefab/CrystalBasting.prefab
+- Assets/Resources/Health/Effect/PolluteBasicItemPickUp.asset
+- Assets/Resources/Sprite/Nightmare1001Spikes-112x112.png
+Dependencies: []
