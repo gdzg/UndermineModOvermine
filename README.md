@@ -8,3 +8,6 @@
 https://github.com/gdzg/UndermineModOvermine/releases/download/0.1.0.5/UndermineModOvermine.v.0.1.5.rar
 # Usage
 unzip it to ``<your steam apps folder>\UnderMine\``.
+# Note
+* If you encounter an error, find ``C:\Users\<your username>\AppData\LocalLow\Thorium Entertainment\UnderMine\Player.log`` and send it to ``uuUcC2im@163.com`` via email.
+
