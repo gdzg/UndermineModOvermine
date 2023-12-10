@@ -470,7 +470,7 @@ MonoBehaviour:
   - Key: WalkingLight.description
     Text: Torch lanterns will help you attack enemies
   - Key: WalkingLight.flavor
-    Text: Every 2-4s, 2-3 torches will attack nearby enemies
+    Text: Every 2-4s, 2-3 torches will attack radmon enemies
   Keys:
   - Evolution.displayName
   - Evolution.description
@@ -920,4 +920,4 @@ MonoBehaviour:
   - None
   - WalkingLight
   - Torch lanterns will help you attack enemies
-  - Every 2-4s, 2-3 torches will attack nearby enemies
+  - Every 2-4s, 2-3 torches will attack radmon enemies
