@@ -87,3 +87,4 @@ crashlytics-build.properties
 !**/Libraries/Overmine.API.dll
 !**/Libraries/Newtonsoft.Json.dll
 !**/Libraries/*.meta.orig
+/.idea/
