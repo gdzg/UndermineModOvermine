@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1708222392, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: 4.SharedPotionDrinkChanneling
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: SharedPotionDrinkChanneling
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(111.00014504732933,
+        0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(111.00028037302489,
+        86)"},"ID":1,"Name":"Channeling","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.SetProperty","NodeData":{"Offset":"(0.0006180988535577117,
+        172)"},"ID":2,"Name":"Set Property","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"PropertySetterm_setter":{"StringtypeName":"Thor.AbilityExt","StringmemberName":"AbilityStage","StringoperatorName":"=","Stringvalue":"Channeling","SharedBoolboolValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedIntintValue":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"","Int32mValue":0},"SharedFloatfloatValue":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0},"SharedVector3vector3Value":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","Vector3mValue":"(0,0,0)"}}},{"Type":"Thor.ChannelAbility","NodeData":{"Offset":"(222.00061563495007,
+        172)"},"ID":3,"Name":"Channel Ability","Instant":true}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.5.7
+  m_preProcess: 0
+  m_autoStart: 1
+  m_restartWhenComplete: 1
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0

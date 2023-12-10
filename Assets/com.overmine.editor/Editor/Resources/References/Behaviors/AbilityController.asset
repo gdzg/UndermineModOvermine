@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1708222392, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: AbilityController
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Controller
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-10,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-3.939415,95.3030548)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-240,110)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Thor.PropertyFilter","NodeData":{"Offset":"(-60,110)"},"ID":3,"Name":"Property
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":"","IsShared":true},"PropertyComparerm_comparer":{"BooleanlhsDynamic":true,"BooleanrhsDynamic":false,"StringlhsTypeName":"Thor.Entity","StringlhsMemberName":"IsShutdown","StringlhsValue":"","StringrhsValue":"True","StringcomparisonName":"!=","Int32mComparisonNameHash":0,"SinglemRhsFloatValue":0},"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":"","IsShared":true,"EntityListmValue":{}}},{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnFailure","NodeData":{"Offset":"(60,110)"},"ID":4,"Name":"Return
+        Failure","Instant":true,"Children":[{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(0,100)","Comment":"Cleanup"},"ID":5,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Cleanup","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(0,110)"},"ID":6,"Name":"Selector","Instant":true,"AbortTypeabortType":"LowerPriority","Children":[{"Type":"Thor.PropertyFilter","NodeData":{"Offset":"(-60,110)"},"ID":7,"Name":"Property
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":"","IsShared":true},"PropertyComparerm_comparer":{"BooleanlhsDynamic":true,"BooleanrhsDynamic":false,"StringlhsTypeName":"Thor.AbilityExt","StringlhsMemberName":"AbilityState","StringlhsValue":"","StringrhsValue":"Inactive","StringcomparisonName":"!=","Int32mComparisonNameHash":0,"SinglemRhsFloatValue":0},"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":"","IsShared":true,"EntityListmValue":{}}},{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnFailure","NodeData":{"Offset":"(59,111)"},"ID":8,"Name":"Return
+        Failure","Instant":true,"Children":[{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(2.1739502,96.95654)","Comment":"Canceling"},"ID":9,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Canceling","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false}]}]},{"Type":"Thor.DoAbility","NodeData":{"Offset":"(340.705078,105.490662)"},"ID":10,"Name":"Do
+        Ability","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(-146.177856,113.385712)","Comment":"Checking"},"ID":11,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Checking","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false},{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(-2.51948547,113.385712)","Comment":"Charging"},"ID":12,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Charging","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false},{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnSuccess","NodeData":{"Offset":"(146,107)"},"ID":13,"Name":"Return
+        Success","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-4,97)"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(-80,110)","Comment":"Casting"},"ID":15,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Casting","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false},{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(80,110)","Comment":"Channeling"},"ID":16,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Channeling","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false}]}]},{"Type":"Thor.DoAbilityStage","NodeData":{"Offset":"(290,110)","Comment":"Cooling"},"ID":17,"Name":"Do
+        Ability Stage","Instant":true,"AbilityStagem_stage":"Cooling","ExternalBehavior[]externalBehaviors":[null],"SharedNamedVariable[]variables":[],"Booleancollapsed":false}]}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 1
+  m_restartWhenComplete: 1
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0

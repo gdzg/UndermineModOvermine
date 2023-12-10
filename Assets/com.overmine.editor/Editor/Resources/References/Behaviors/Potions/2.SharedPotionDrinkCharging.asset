@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1708222392, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: 2.SharedPotionDrinkCharging
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: SharedPotionDrinkCharging
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(-1355.99731,-1772.72449)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(444.000763,86)"},"ID":1,"Name":"Charging","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.SetProperty","NodeData":{"Offset":"(0.000498073641,172)"},"ID":2,"Name":"Set
+        Property","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"PropertySetterm_setter":{"StringtypeName":"Thor.AbilityExt","StringmemberName":"AbilityStage","StringoperatorName":"=","Stringvalue":"Charging","SharedBoolboolValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedIntintValue":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"","Int32mValue":0},"SharedFloatfloatValue":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0},"SharedStringstringValue":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedVector3vector3Value":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedEntityentityValue":{"Type":"Thor.SharedEntity","Name":null},"SharedColorcolorValue":{"Type":"BehaviorDesigner.Runtime.SharedColor","Name":null,"ColormValue":"RGBA(0.000,
+        0.000, 0.000, 0.000)"},"SharedDataObjectdataObjectValue":{"Type":"Thor.SharedDataObject","Name":null}}},{"Type":"Thor.SetVisualState","NodeData":{"Offset":"(222.000168,172)","Comment":"drinking"},"ID":3,"Name":"Set
+        Visual State","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedStringm_state":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"drinking"},"SharedBoolm_value":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Thor.PlayAudio","NodeData":{"Offset":"(444.000549,172)","Comment":"Play","ColorIndex":8},"ID":4,"Name":"Play
+        Audio","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"Stringm_name":"event:/Items/Potion_Use_Loop","AudioEventOperationm_operation":"Play"},{"Type":"Thor.AddModifier","NodeData":{"Offset":"(666.0005,172)"},"ID":5,"Name":"Add
+        Modifier","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"Modifierm_modifier":{"Stringid":"4f68fd2520b1432e8f1c13c23c9f1a8a","StringtypeName":"Thor.MoverExt","StringmemberName":"IsMovementEnabled","StringoperatorName":"AND","SharedBoolboolAmount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatfloatAmount":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"Int32order":0,"Booleanautosave":false},"Booleanm_dynamicID":false,"Booleanm_removeOnComplete":true,"Booleanm_isBase":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(888.000366,172)"},"ID":6,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(75.09105,110.272781)"},"ID":7,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.PropertyFilter","NodeData":{"Offset":"(555.000854,344)","Comment":"Interruptable?"},"ID":8,"Name":"Property
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"PropertyComparerm_comparer":{"BooleanlhsDynamic":true,"BooleanrhsDynamic":false,"StringlhsTypeName":"Thor.AbilityExt","StringrhsTypeName":"Thor.Entity","StringlhsMemberName":"ActivationStage","StringrhsMemberName":"Filterable","StringlhsValue":"","StringrhsValue":"Stage1","StringcomparisonName":"==","Int32mComparisonNameHash":0,"SinglemRhsFloatValue":0},"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":null,"IsShared":true,"EntityListmValue":{}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Interrupt","NodeData":{"Offset":"(617.9097,571.2726)"},"ID":9,"Name":"Interrupt","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnFailure","NodeData":{"Offset":"(322.455353,-365.453857)"},"ID":10,"Name":"Return
+        Failure","Instant":true,"Children":[{"Type":"Thor.WaitForTakesDamageEvent","NodeData":{"Offset":"(777.0001,516)"},"ID":11,"Name":"Wait
+        For Takes Damage Event","Instant":true,"SharedEntitym_attackerOutput":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_originOutput":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedIntm_amountOutput":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"IsShared":true,"Int32mValue":0},"SharedIntm_hpDeltaOutput":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"IsShared":true,"Int32mValue":0},"SharedDamageTypem_typeOutput":{"Type":"BehaviorDesigner.Runtime.SharedDamageType","Name":null,"IsShared":true,"DamageTypemValue":"Physical"},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatm_timeout":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnFailure","NodeData":{"Offset":"(-1177.542,692.908936)"},"ID":12,"Name":"Return
+        Failure","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(603.92334,-119.691696)"},"ID":13,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.SetVisualState","NodeData":{"Offset":"(666.0009,774)","Comment":"!drinking"},"ID":14,"Name":"Set
+        Visual State","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedStringm_state":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"drinking"},"SharedBoolm_value":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}},{"Type":"Thor.PlayAudio","NodeData":{"Offset":"(888.000732,774)","Comment":"Stop","ColorIndex":8},"ID":15,"Name":"Play
+        Audio","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"Stringm_name":"event:/Items/Potion_Use_Loop","AudioEventOperationm_operation":"Stop"}]}]}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(700.9098,-230.636246)"},"ID":16,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.ChargeAbility","NodeData":{"Offset":"(999.000549,344)","Comment":"Increment\ncharge
+        level"},"ID":17,"Name":"Charge Ability","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.PerformInterruption","NodeData":{"Offset":"(1221,344)"},"ID":18,"Name":"Perform
+        Interruption","Instant":true,"Interrupt[]interruptTasks":[9],"SharedBoolinterruptSuccess":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}]}]}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 1
+  m_restartWhenComplete: 1
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0

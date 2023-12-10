@@ -1,0 +1,31 @@
+.unity-foldout__toggle {
+    margin-left: 0;
+    border-color: #1B1B1B;
+    border-width: 1px;
+}
+
+.unity-foldout__toggle .unity-toggle__input {
+    background-color: #2E2E2E;
+    padding: 2px;
+}
+
+.unity-foldout__toggle .unity-toggle__input .unity-toggle__checkmark {
+    margin-right: 8px;
+}
+
+.unity-foldout__content {
+    border-width: 1px;
+    border-color: #1B1B1B;
+    background-color: #373737;
+    margin: -4px 3px 4px 0;
+    padding: 4px;
+}
+
+.unity-base-field__label {
+    min-width: 130px !important;
+    margin-right: 0;
+}
+
+.unity-foldout .unity-vector3-field__input .unity-base-field__label  {
+    min-width: 11px !important;
+}
