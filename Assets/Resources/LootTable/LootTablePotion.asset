@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LootTablePotion
+  m_EditorClassIdentifier: 
+  m_guid: fecaf73d2e1e4fb2b9f37e7a9e5a1153
+  m_name: LootTablePotion
+  m_randStateType: 6
+  m_rerollHint: 128
+  m_fallbackTable: {fileID: 0}
+  m_defaultLoot: {fileID: 0}
+  m_loot:
+  - weight: 7
+    item: {fileID: 11400000, guid: d049d539ad43a6d4686556b9c65d956c, type: 2}
+  - weight: 7
+    item: {fileID: 11400000, guid: 381fa19fc512c484bb3a84b71859698a, type: 2}
+  - weight: 3
+    item: {fileID: 11400000, guid: 334d7a7507b0efc49bc988c56e06f433, type: 2}
+  - weight: 7
+    item: {fileID: 11400000, guid: 096b2a6cc6ed20346adee32bec7f42ff, type: 2}
+  - weight: 7
+    item: {fileID: 11400000, guid: 29b2ad292b20e5d4ba0fbbaa192b8de8, type: 2}
+  - weight: 80
+    item: {fileID: 11400000, guid: 89883ab11efc1fa42b903b21e2d78a9c, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: 85e352fd39fd8f04b957bc578e6894ef, type: 2}
+  Replace: 0

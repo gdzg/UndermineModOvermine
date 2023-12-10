@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LootTableHex
+  m_EditorClassIdentifier: 
+  m_guid: 8b2f1309f5884519950b348f5f94002f
+  m_name: LootTableHex
+  m_randStateType: 23
+  m_rerollHint: 16777216
+  m_fallbackTable: {fileID: 0}
+  m_defaultLoot: {fileID: 0}
+  m_loot:
+  - weight: 5
+    item: {fileID: 11400000, guid: 3a164a1a7f5571340a683fee60a79b4e, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: 1c61518fafe97f2428a706e05d7aaada, type: 2}
+  Replace: 0

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1039079324, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+  m_Name: Turkey
+  m_EditorClassIdentifier: 
+  m_guid: c5ae9a5f-d158-4382-9477-2e3ec23f9a79
+  m_icon: {fileID: 21300000, guid: 1151fccaed78dec4faed4a9d54cdeb0f, type: 3}
+  m_portrait: {fileID: 0}
+  m_displayName:
+    m_id: 0
+    m_text:
+      mIsShared: 0
+      mIsGlobal: 0
+      mIsDynamic: 0
+      mName: 
+      mPropertyMapping: 
+      mPropertyMappingOwner: {fileID: 0}
+      mNetworkSync: 0
+      mValue: Turkey.displayName
+  m_description:
+    m_id: 0
+    m_text:
+      mIsShared: 0
+      mIsGlobal: 0
+      mIsDynamic: 0
+      mName: 
+      mPropertyMapping: 
+      mPropertyMappingOwner: {fileID: 0}
+      mNetworkSync: 0
+      mValue: Turkey.description
+  m_flavor:
+    m_id: 0
+    m_text:
+      mIsShared: 0
+      mIsGlobal: 0
+      mIsDynamic: 0
+      mName: 
+      mPropertyMapping: 
+      mPropertyMappingOwner: {fileID: 0}
+      mNetworkSync: 0
+      mValue: Turkey.flavor
+  m_rarity: 0
+  m_showInJournal: 1
+  m_isDeprecated: 0
+  m_hint: 1280
+  m_slot: food
+  m_audio: event:/Items/Food_Land
+  m_tags:
+  - m_value: food
+  m_costGroups:
+  - type: 1
+    costs:
+    - mAmount: 250
+      mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
+  m_maxDropCount: -1
+  m_isDefault: 1
+  m_isDefaultDiscovered: 1
+  m_autoUnlock: 0
+  m_rerollable: 1
+  m_allowOnAltar: 0
+  m_pickedUpBehavior: {fileID: 11400000, guid: 8f0d740ce60b00a4887f832255ef7c81, type: 2}
+  m_secondaryPickedUpBehavior: {fileID: 0}
+  m_isSpecialDrop: 0
+  m_isSpecialDiscovery: 0
+  m_comboPiece: {fileID: 0}
+  m_comboResult: {fileID: 0}
+  m_userData: 0
+  m_templateOverride: {fileID: 0}
+  m_dropRequirements:
+  - type: 6
+    operation: 0
+    key: 
+    value: 0
+    comparison: 
+    stringData: 
+    entityData: {fileID: 11400000, guid: 6e9146df109d700459d9c7368f9519f9, type: 2}
+    resourceData: {fileID: 0}
+  - type: 6
+    operation: 0
+    key: 
+    value: 0
+    comparison: 
+    stringData: 
+    entityData: {fileID: 11400000, guid: 83ad32958d201114a9084ccc377b64d7, type: 2}
+    resourceData: {fileID: 0}
+  - type: 6
+    operation: 0
+    key: 
+    value: 0
+    comparison: 
+    stringData: 
+    entityData: {fileID: 11400000, guid: c6230ec3758776e40be2f71acd43b6fd, type: 2}
+    resourceData: {fileID: 0}
+  m_discoverRequirements: []

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: HourGlassEffect1
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(799,-38)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1,122)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.ChooseItem","NodeData":{"Offset":"(-400,190)"},"ID":2,"Name":"Choose
+        Item","Instant":true,"SharedEntitym_avatar":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"ChooseItemDatam_data":{"SharedBooloptional":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolforAltar":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedIntmaxItems":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":-1},"ChooseTypechooseType":"Equipped","ItemHinthint":"Blessing","CostTypecostType":"Free","SharedStringcostModifierKey":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"List`1exclusions":[]},"SharedDataObjectm_itemOputput":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true}},{"Type":"Thor.GetStatusEffect","NodeData":{"Offset":"(-249.130432,190)"},"ID":3,"Name":"Get
+        Status Effect","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedDataObjectm_data":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedEntitym_output":{"Type":"Thor.SharedEntity","Name":"Item","IsShared":true}},{"Type":"Thor.SetVariable","NodeData":{"Offset":"(-101,192)"},"ID":4,"Name":"Set
+        Variable","Instant":true,"VariableSetterm_variableSetter":{"SharedVariablesharedVariable":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},"StringoperatorName":"=","SetterTypesetterType":"Property","SharedEntitypropertyTarget":{"Type":"Thor.SharedEntity","Name":"Item","IsShared":true},"StringpropertyTypeName":"Thor.StatusEffectExt","StringpropertyMemberName":"Level","Int32mOperatorNameHash":0,"PropertyDatamPropertyData":{}}},{"Type":"Thor.RemoveItem","NodeData":{"Offset":"(47.26087,192)"},"ID":5,"Name":"Remove
+        Item","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedDataObjectm_data":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedBoolm_force":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_drop":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedEntitym_droppedOutput":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(239,192)"},"ID":6,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-484.9131,153.739136)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.CompareInt","NodeData":{"Offset":"(-481,162)"},"ID":8,"Name":"Compare
+        Int","Instant":true,"SharedIntm_int":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},"Operationm_operation":"GreaterThan","SharedIntm_value":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":3}},{"Type":"GetRandomItemByLootTable","NodeData":{"Offset":"(-272.739136,162.869568)"},"ID":9,"Name":"Get
+        Random Item By Loot Table","Instant":true,"Stringguid":"7c684bd4688c473e9cae7ef869c5d5cc","SharedDataObjectoutput":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedBoolm_incrementDropCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"false","IsShared":true,"IsDynamic":true,"BooleanmValue":false}},{"Type":"Thor.DropItem","NodeData":{"Offset":"(-84.47826,162)"},"ID":10,"Name":"Drop
+        Item","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedEntitym_output":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedBoolm_jump":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_autoCarry":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"StateTypem_tableRandState":"Default","SharedVector3m_offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"DropItemDatam_data":{"DropTypedropType":"Item","DataSourceTypesourceType":"Data","SharedDataObjectitemData":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"List`1weightedLootTables":[],"SharedBoolbypassRequirements":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-363.961334,301.545868)"},"ID":11,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.CompareInt","NodeData":{"Offset":"(-480,160)"},"ID":12,"Name":"Compare
+        Int","Instant":true,"SharedIntm_int":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},"Operationm_operation":"GreaterThan","SharedIntm_value":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":3}},{"Type":"GetRandomItemByLootTable","NodeData":{"Offset":"(-270,160)"},"ID":13,"Name":"Get
+        Random Item By Loot Table","Instant":true,"Stringguid":"7c684bd4688c473e9cae7ef869c5d5cc","SharedDataObjectoutput":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedBoolm_incrementDropCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"true","IsShared":true,"IsDynamic":true,"BooleanmValue":false}},{"Type":"Thor.RunItemPickup","NodeData":{"Offset":"(-65.82603,169.391357)"},"ID":14,"Name":"Run
+        Item Pickup","Instant":true,"SharedDataObjectm_data":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"PickupTypem_type":"Primary","SharedEntitym_self":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-141.890244,184.277466)"},"ID":15,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.CompareInt","NodeData":{"Offset":"(-82.3913,170.869568)"},"ID":16,"Name":"Compare
+        Int","Instant":true,"SharedIntm_int":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},"Operationm_operation":"GreaterThan","SharedIntm_value":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":2}},{"Type":"GetRandomItemByLootTable","NodeData":{"Offset":"(7.500003,282.5)"},"ID":17,"Name":"Get
+        Random Item By Loot Table","Instant":true,"Stringguid":"e2e4da02cd7847abae5d2519fd618110","SharedDataObjectoutput":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedBoolm_incrementDropCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"false","IsShared":true,"IsDynamic":true,"BooleanmValue":false}},{"Type":"Thor.DropItem","NodeData":{"Offset":"(177.5,282.5)"},"ID":18,"Name":"Drop
+        Item","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},"SharedEntitym_output":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedBoolm_jump":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_autoCarry":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"StateTypem_tableRandState":"Default","SharedVector3m_offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"DropItemDatam_data":{"DropTypedropType":"Item","DataSourceTypesourceType":"Data","SharedDataObjectitemData":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"List`1weightedLootTables":[],"SharedBoolbypassRequirements":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(279,162)"},"ID":19,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.CompareInt","NodeData":{"Offset":"(-127.5,150)"},"ID":20,"Name":"Compare
+        Int","Instant":true,"SharedIntm_int":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},"Operationm_operation":"GreaterThan","SharedIntm_value":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1}},{"Type":"GetRandomItemByLootTable","NodeData":{"Offset":"(68.69645,154.806976)"},"ID":21,"Name":"Get
+        Random Item By Loot Table","Instant":true,"Stringguid":"e2e4da02cd7847abae5d2519fd618110","SharedDataObjectoutput":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"SharedBoolm_incrementDropCount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"true","IsShared":true,"IsDynamic":true,"BooleanmValue":false}},{"Type":"Thor.RunItemPickup","NodeData":{"Offset":"(270,154.36171)"},"ID":22,"Name":"Run
+        Item Pickup","Instant":true,"SharedDataObjectm_data":{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},"PickupTypem_type":"Primary","SharedEntitym_self":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true}}]}]}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Damage","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"DamageF","IsShared":true,"SinglemValue":0},{"Type":"BehaviorDesigner.Runtime.SharedString","Name":"Name","IsShared":true,"StringmValue":""},{"Type":"Thor.SharedEntity","Name":"Item","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"IsFrozen","IsShared":true,"BooleanmValue":false},{"Type":"Thor.SharedDataObject","Name":"Itemdata","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 0
+  m_restartWhenComplete: 0
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0
+  Variables:
+  - Name: Entities
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Avatars
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Items
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Projectiles
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Bosses
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Hazards
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Player
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Zone
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Seed
+    IsGlobal: 1
+    _type: BehaviorDesigner.Runtime.SharedInt, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Self
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Owner
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Root
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Link
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Target
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Targets
+    IsGlobal: 0
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Damage
+    IsGlobal: 0
+    _type: BehaviorDesigner.Runtime.SharedInt, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: DamageF
+    IsGlobal: 0
+    _type: BehaviorDesigner.Runtime.SharedFloat, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Name
+    IsGlobal: 0
+    _type: BehaviorDesigner.Runtime.SharedString, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Item
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: IsFrozen
+    IsGlobal: 0
+    _type: BehaviorDesigner.Runtime.SharedBool, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

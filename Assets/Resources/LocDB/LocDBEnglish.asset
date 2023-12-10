@@ -1,0 +1,923 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1035995740, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LocDBEnglish
+  m_EditorClassIdentifier: 
+  Language: 0
+  Entries:
+  - Key: Evolution.displayName
+    Text: Evolution
+  - Key: Evolution.description
+    Text: Maximum health+3%, damage taken -3%, healing increased by+5%, gold obtained+5%,
+      store price -5%
+  - Key: Evolution.flavor
+    Text: Semi comprehensive improvement can also be considered as evolution
+  - Key: PolluteBlessing.displayName
+    Text: PolluteBlessing
+  - Key: PolluteBlessing.description
+    Text: Polluted blessings have no effect
+  - Key: PolluteBlessing.flavor
+    Text: Only when holding pollution will it fall off
+  - Key: Speed.displayName
+    Text: Speed
+  - Key: Speed.description
+    Text: Movement speed+0.25, swing speed+0.0625, throwing speed+1
+  - Key: Speed.flavor
+    Text: None
+  - Key: BloodAltar.displayName
+    Text: BloodAltar
+  - Key: BloodAltar.description
+    Text: Using the altar will deal direct damage of 10% of maximum health
+  - Key: BloodAltar.flavor
+    Text: None
+  - Key: BrokenArmor.displayName
+    Text: BrokenArmor
+  - Key: BrokenArmor.description
+    Text: Maybe we need to replace it with a better armor
+  - Key: BrokenArmor.flavor
+    Text: Maybe we need to replace it with a better armor
+  - Key: Darkness.displayName
+    Text: Darkness
+  - Key: Darkness.description
+    Text: Torch lanterns no longer provide illumination
+  - Key: Darkness.flavor
+    Text: None
+  - Key: DisasterChest.displayName
+    Text: DisasterChest
+  - Key: DisasterChest.description
+    Text: Torch lanterns no longer provide illumination. Opening a treasure chest
+      will deal direct damage of 10% of maximum health, but will generate a treasure
+      chest monster
+  - Key: DisasterChest.flavor
+    Text: None
+  - Key: Eater.displayName
+    Text: Eater
+  - Key: Eater.description
+    Text: Dropped items have a 25% chance of being destroyed
+  - Key: Eater.flavor
+    Text: None
+  - Key: ElementBan.displayName
+    Text: ElementBan
+  - Key: ElementBan.description
+    Text: Unable to cause elemental damage
+  - Key: ElementBan.flavor
+    Text: None
+  - Key: GreedyCat.displayName
+    Text: GreedyCat
+  - Key: GreedyCat.description
+    Text: 30% reduction in gold obtained and 20% increase in store prices
+  - Key: GreedyCat.flavor
+    Text: None
+  - Key: Hidden.displayName
+    Text: Hidden
+  - Key: Hidden.description
+    Text: After entering the room for 1 second, 2-3 enemies gain invisibility effects
+  - Key: Hidden.flavor
+    Text: The boss room will not take effect
+  - Key: Inhibitor.displayName
+    Text: Inhibitor
+  - Key: Inhibitor.description
+    Text: Take an additional 2 direct damage points when taking damage
+  - Key: Inhibitor.flavor
+    Text: None
+  - Key: Miniaturize.displayName
+    Text: Miniaturize
+  - Key: Miniaturize.description
+    Text: For every 5 enemies killed, reduce 1 point of throwing and swinging damage
+  - Key: Miniaturize.flavor
+    Text: None
+  - Key: Pollute.displayName
+    Text: Pollute
+  - Key: Pollute.description
+    Text: Some useless items will be added to the drop pool
+  - Key: Pollute.flavor
+    Text: Invalid disable
+  - Key: Resistance.displayName
+    Text: Resistance
+  - Key: Resistance.description
+    Text: Reduce physical damage received by all enemies by 20-80% when entering
+      the room
+  - Key: Resistance.flavor
+    Text: Boss room will not take effect, enemies in the same room will gain the
+      same resistance
+  - Key: ResourceShortage.displayName
+    Text: ResourceShortage
+  - Key: ResourceShortage.description
+    Text: There is a 35% chance of losing a bomb or key when obtaining it
+  - Key: ResourceShortage.flavor
+    Text: None
+  - Key: ArmorBreaker.displayName
+    Text: ArmorBreaker
+  - Key: ArmorBreaker.description
+    Text: 20% chance to replenish some armor
+  - Key: ArmorBreaker.flavor
+    Text: Only drop if there is an armor slot and there is hunger or contamination
+      present
+  - Key: ArmorShardSpecial.displayName
+    Text: ArmorShardSpecial
+  - Key: ArmorShardSpecial.description
+    Text: Add 2 points of armor
+  - Key: ArmorShardSpecial.flavor
+    Text: None
+  - Key: BrusselSprouts.displayName
+    Text: BrusselSprouts
+  - Key: BrusselSprouts.description
+    Text: Restore 5 health points
+  - Key: BrusselSprouts.flavor
+    Text: Cannot be cooked or contaminated, only drops when contaminated
+  - Key: BrusselSproutsCrispy.displayName
+    Text: BrusselSproutsCrispy
+  - Key: BrusselSproutsCrispy.description
+    Text: Restore 1 health point
+  - Key: BrusselSproutsCrispy.flavor
+    Text: Cannot be cooked or contaminated, only drops when contaminated
+  - Key: MashedPotatoes.displayName
+    Text: MashedPotatoes
+  - Key: MashedPotatoes.description
+    Text: Maximum health increased by 5 points and restored by 10 points
+  - Key: MashedPotatoes.flavor
+    Text: Unable to be cooked or contaminated, will not drop when holding hungry,
+      plague, or golden delicacies
+  - Key: MashedPotatoesGarlic.displayName
+    Text: MashedPotatoesGarlic
+  - Key: MashedPotatoesGarlic.description
+    Text: Maximum health increased by 10 points and restored by 20 points
+  - Key: MashedPotatoesGarlic.flavor
+    Text: Unable to be cooked or contaminated, will not drop when holding hungry,
+      plague, or golden delicacies
+  - Key: PolluteBasic.displayName
+    Text: PolluteBasic
+  - Key: PolluteBasic.description
+    Text: No effect
+  - Key: PolluteBasic.flavor
+    Text: Only when holding pollution will it fall off
+  - Key: Sandwich.displayName
+    Text: Sandwich
+  - Key: Sandwich.description
+    Text: Restore 100 health points
+  - Key: Sandwich.flavor
+    Text: Unable to be cooked or contaminated, will not drop when holding hungry,
+      plague, or golden delicacies
+  - Key: SandwichGolden.displayName
+    Text: SandwichGolden
+  - Key: SandwichGolden.description
+    Text: Restore 100 health points and receive 500 gold
+  - Key: SandwichGolden.flavor
+    Text: Will only drop when holding golden cuisine and not holding hunger and plague
+  - Key: SandwichSmoked.displayName
+    Text: SandwichSmoked
+  - Key: SandwichSmoked.description
+    Text: Restore 125 health points
+  - Key: SandwichSmoked.flavor
+    Text: Unable to be cooked or contaminated, will not drop when holding hungry,
+      plague, or golden delicacies
+  - Key: Turkey.displayName
+    Text: Turkey
+  - Key: Turkey.description
+    Text: Restore 75 health points
+  - Key: Turkey.flavor
+    Text: Unable to be cooked or contaminated, will not drop when holding hungry,
+      plague, or golden delicacies
+  - Key: TurkeyGolden.displayName
+    Text: TurkeyGolden
+  - Key: TurkeyGolden.description
+    Text: Restore 75 health points and receive 350 gold
+  - Key: TurkeyGolden.flavor
+    Text: Will only drop when holding golden cuisine and not holding hunger and plague
+  - Key: GlennHex.displayName
+    Text: GlennHex
+  - Key: GlennHex.description
+    Text: Reduce all damage by 50% -150%, changing every 10 seconds
+  - Key: GlennHex.flavor
+    Text: None
+  - Key: Terminus.displayName
+    Text: Terminus
+  - Key: Terminus.description
+    Text: Take direct damage of 25% of maximum health every 60 seconds
+  - Key: Terminus.flavor
+    Text: This damage will not be blocked
+  - Key: GoldPotion.displayName
+    Text: GoldPotion
+  - Key: GoldPotion.description
+    Text: Get 100-500 gold
+  - Key: GoldPotion.flavor
+    Text: None
+  - Key: HolyTonic.displayName
+    Text: HolyTonic
+  - Key: HolyTonic.description
+    Text: During the duration, each consumption of the potion will restore 5% of
+      the maximum health for 30 seconds
+  - Key: HolyTonic.flavor
+    Text: None
+  - Key: HourGlass.displayName
+    Text: HourGlass
+  - Key: HourGlass.description
+    Text: Select blessings and remove them to receive a reward based on the level
+      of blessings removed 1. Obtain a blessing;> 2. Drop a blessing;> 3. Obtain
+      a sacred object;> 4. Drop a sacred object
+  - Key: HourGlass.flavor
+    Text: Discard useless blessings
+  - Key: PotionEmpty.displayName
+    Text: PotionEmpty
+  - Key: PotionEmpty.description
+    Text: No effect
+  - Key: PotionEmpty.flavor
+    Text: Only when holding pollution will it fall off
+  - Key: QuickSilver.displayName
+    Text: QuickSilver
+  - Key: QuickSilver.description
+    Text: Move to the next level in 1 second, open all maps, and drop a holy item
+      and blessing
+  - Key: QuickSilver.flavor
+    Text: None
+  - Key: Timer.displayName
+    Text: Timer
+  - Key: Timer.description
+    Text: Pause all enemy actions for 8 seconds
+  - Key: Timer.flavor
+    Text: Will not interrupt ongoing actions, duration will not trigger any actions
+  - Key: TortoiselOil.displayName
+    Text: TortoiselOil
+  - Key: TortoiselOil.description
+    Text: Curse the torch and obtain 2 bombs
+  - Key: TortoiselOil.flavor
+    Text: None
+  - Key: AbyssalCrystal.displayName
+    Text: AbyssalCrystal
+  - Key: AbyssalCrystal.description
+    Text: When entering the next level, if the probability of the demon room is less
+      than -15, it will be reset to 0, but will receive 3 major curses. Whenever
+      you receive 3 curses, drop a bottle of potion.
+  - Key: AbyssalCrystal.flavor
+    Text: None
+  - Key: AllThatGlitters.displayName
+    Text: AllThatGlitters
+  - Key: AllThatGlitters.description
+    Text: Picking up non sacred items, potions, and gold items will earn 10 points
+      of gold
+  - Key: AllThatGlitters.flavor
+    Text: Activate full blood to eat meat
+  - Key: BrambleVest.displayName
+    Text: BrambleVest
+  - Key: BrambleVest.description
+    Text: When dealing physical damage to enemies, an additional 20% of the direct
+      damage will be dealt
+  - Key: BrambleVest.flavor
+    Text: Made using Ponzo scales, therefore ineffective against Ponzo.
+  - Key: CrystalBasting.displayName
+    Text: CrystalBasting
+  - Key: CrystalBasting.description
+    Text: Bomb damage increased by 10%, explosion range increased by 1
+  - Key: CrystalBasting.flavor
+    Text: None
+  - Key: Demon.displayName
+    Text: Demon
+  - Key: Demon.description
+    Text: Entering the initial room for the first time or again will result in 3
+      major curses, while generating the entrance to the demon room
+  - Key: Demon.flavor
+    Text: None
+  - Key: Disastrous.displayName
+    Text: Disastrous
+  - Key: Disastrous.description
+    Text: When dealing damage to enemies, it increases their damage by 5% for 5 seconds,
+      with a maximum of 10 layers
+  - Key: Disastrous.flavor
+    Text: None
+  - Key: ElectricShock.displayName
+    Text: ElectricShock
+  - Key: ElectricShock.description
+    Text: Contact enemies with electric shock, deal 30% strike damage and lightning
+      damage
+  - Key: ElectricShock.flavor
+    Text: None
+  - Key: EndlessShackles.displayName
+    Text: EndlessShackles
+  - Key: EndlessShackles.description
+    Text: Get 3 Great Curses, drop 1 Relic, and 2 Blessings for every 6 rooms you
+      enter
+  - Key: EndlessShackles.flavor
+    Text: Curse the Holy Relic
+  - Key: EndureBuff.displayName
+    Text: EndureBuff
+  - Key: EndureBuff.description
+    Text: Physical damage will temporarily reduce damage taken by 5% for 5 seconds,
+      with a maximum of 5 layers
+  - Key: EndureBuff.flavor
+    Text: None
+  - Key: Endure.displayName
+    Text: Endure
+  - Key: Endure.description
+    Text: Physical damage will temporarily reduce damage taken by 5% for 5 seconds,
+      with a maximum of 5 layers
+  - Key: Endure.flavor
+    Text: None
+  - Key: Erosion.displayName
+    Text: Erosion
+  - Key: Erosion.description
+    Text: When attacking an enemy, there is a 25% chance to deal 50% of their maximum
+      health as direct damage, lasting for 5 seconds
+  - Key: Erosion.flavor
+    Text: Invalid for boss
+  - Key: FireAxe.displayName
+    Text: FireAxe
+  - Key: FireAxe.description
+    Text: When wielding, there is a 50% chance to fire flame projectiles
+  - Key: FireAxe.flavor
+    Text: Fire throwing objects will not hit items
+  - Key: FrostArmor.displayName
+    Text: FrostArmor
+  - Key: FrostArmor.description
+    Text: At the beginning of the battle, permanently reduce the enemy's movement
+      speed by 30%.
+  - Key: FrostArmor.flavor
+    Text: None
+  - Key: FrozenOrb.displayName
+    Text: FrozenOrb
+  - Key: FrozenOrb.description
+    Text: Attack has a 20% chance to move the target for 2 seconds, and then deal
+      a 3 * 3 grid ice element damage centered on the target
+  - Key: FrozenOrb.flavor
+    Text: None
+  - Key: GhostlyIchor.displayName
+    Text: GhostlyIchor
+  - Key: GhostlyIchor.description
+    Text: When entering battle, one enemy will become a friendly, and when that friendly
+      dies, it will deal direct damage to all enemies by 50% of their maximum health
+  - Key: GhostlyIchor.flavor
+    Text: It won't take effect in the boss room
+  - Key: HalfTimeBreak.displayName
+    Text: HalfTimeBreak
+  - Key: HalfTimeBreak.description
+    Text: Restore 5% health after the battle ends
+  - Key: HalfTimeBreak.flavor
+    Text: None
+  - Key: Heart.displayName
+    Text: Heart
+  - Key: Heart.description
+    Text: Each overflow of 1 healing effect will be converted to 2 gold points
+  - Key: Heart.flavor
+    Text: None
+  - Key: HolyLightDevotion.displayName
+    Text: HolyLightDevotion
+  - Key: HolyLightDevotion.description
+    Text: There is a 60% chance to receive blessings and small curses when using
+      the altar
+  - Key: HolyLightDevotion.flavor
+    Text: None
+  - Key: Lust.displayName
+    Text: Lust
+  - Key: Lust.description
+    Text: Lose up to 5000 gold, gain 200 temporary health points, and consume temporary
+      health points every time you take immediate damage to offset the damage
+  - Key: Lust.flavor
+    Text: Unable to resist overflow effects, only appearing after layer 6
+  - Key: MealTicketGold.displayName
+    Text: MealTicketGold
+  - Key: MealTicketGold.description
+    Text: Gold hot dogs will drop when entering the pilfer shop
+  - Key: MealTicketGold.flavor
+    Text: Store in bottle invalid
+  - Key: MealTicketHigh.displayName
+    Text: MealTicketHigh
+  - Key: MealTicketHigh.description
+    Text: Roasted chicken will drop when entering the pilfer shop
+  - Key: MealTicketHigh.flavor
+    Text: Store in bottle invalid
+  - Key: MealTicketSpecial.displayName
+    Text: MealTicketSpecial
+  - Key: MealTicketSpecial.description
+    Text: When entering the pilfer shop, restore 200 health points and earn 1000
+      gold
+  - Key: MealTicketSpecial.flavor
+    Text: Store in bottle invalid
+  - Key: MoldyCrossBun.displayName
+    Text: MoldyCrossBun
+  - Key: MoldyCrossBun.description
+    Text: Increase maximum health by 5 points
+  - Key: MoldyCrossBun.flavor
+    Text: Only when holding pollution will it fall off
+  - Key: NaughtyBomb.displayName
+    Text: NaughtyBomb
+  - Key: NaughtyBomb.description
+    Text: When enemies die, there is a 20% chance to generate bomb monsters, which
+      are considered as bombs released by oneself
+  - Key: NaughtyBomb.flavor
+    Text: None
+  - Key: PlantReaper.displayName
+    Text: PlantReaper
+  - Key: PlantReaper.description
+    Text: Killing plants will restore 3 health points
+  - Key: PlantReaper.flavor
+    Text: None
+  - Key: PonzuScale.displayName
+    Text: PonzuScale
+  - Key: PonzuScale.description
+    Text: When a bomb explodes, it will inflict a stumbling effect of 1 second and
+      a 10% increase in damage on all enemies
+  - Key: PonzuScale.flavor
+    Text: None
+  - Key: StandardRing.displayName
+    Text: StandardRing
+  - Key: StandardRing.description
+    Text: Maximum health fixed at 300, damage fixed at 50, 40,150
+  - Key: StandardRing.flavor
+    Text: None
+  - Key: StarMarkedBuckler.displayName
+    Text: StarMarkedBuckler
+  - Key: StarMarkedBuckler.description
+    Text: When hit, there is a 20% chance of immunity to the attack
+  - Key: StarMarkedBuckler.flavor
+    Text: None
+  - Key: SteelFleshBuff.displayName
+    Text: SteelFleshBuff
+  - Key: SteelFleshBuff.description
+    Text: Dealing damage to enemies will temporarily increase damage by 1% for 5
+      seconds, with a maximum of 50 layers.
+  - Key: SteelFleshBuff.flavor
+    Text: None
+  - Key: SteelFlesh.displayName
+    Text: SteelFlesh
+  - Key: SteelFlesh.description
+    Text: Dealing damage to enemies will temporarily increase damage by 1% for 5
+      seconds, with a maximum of 50 layers.
+  - Key: SteelFlesh.flavor
+    Text: None
+  - Key: TimerRelic.displayName
+    Text: TimerRelic
+  - Key: TimerRelic.description
+    Text: Pause enemy actions for 1.5 seconds after entering the room
+  - Key: TimerRelic.flavor
+    Text: Will not interrupt ongoing actions, duration will not trigger any actions
+  - Key: VariationFloatBoot.displayName
+    Text: VariationFloatBoot
+  - Key: VariationFloatBoot.description
+    Text: Increase movement speed by 0.5, eat almost all traps upon entering the
+      room, and obtain a floating effect after eating 30 objects
+  - Key: VariationFloatBoot.flavor
+    Text: None
+  - Key: WalkingLight.displayName
+    Text: WalkingLight
+  - Key: WalkingLight.description
+    Text: Torch lanterns will help you attack enemies
+  - Key: WalkingLight.flavor
+    Text: Every 2-4s, 2-3 torches will attack nearby enemies
+  Keys:
+  - Evolution.displayName
+  - Evolution.description
+  - Evolution.flavor
+  - PolluteBlessing.displayName
+  - PolluteBlessing.description
+  - PolluteBlessing.flavor
+  - Speed.displayName
+  - Speed.description
+  - Speed.flavor
+  - BloodAltar.displayName
+  - BloodAltar.description
+  - BloodAltar.flavor
+  - BrokenArmor.displayName
+  - BrokenArmor.description
+  - BrokenArmor.flavor
+  - Darkness.displayName
+  - Darkness.description
+  - Darkness.flavor
+  - DisasterChest.displayName
+  - DisasterChest.description
+  - DisasterChest.flavor
+  - Eater.displayName
+  - Eater.description
+  - Eater.flavor
+  - ElementBan.displayName
+  - ElementBan.description
+  - ElementBan.flavor
+  - GreedyCat.displayName
+  - GreedyCat.description
+  - GreedyCat.flavor
+  - Hidden.displayName
+  - Hidden.description
+  - Hidden.flavor
+  - Inhibitor.displayName
+  - Inhibitor.description
+  - Inhibitor.flavor
+  - Miniaturize.displayName
+  - Miniaturize.description
+  - Miniaturize.flavor
+  - Pollute.displayName
+  - Pollute.description
+  - Pollute.flavor
+  - Resistance.displayName
+  - Resistance.description
+  - Resistance.flavor
+  - ResourceShortage.displayName
+  - ResourceShortage.description
+  - ResourceShortage.flavor
+  - ArmorBreaker.displayName
+  - ArmorBreaker.description
+  - ArmorBreaker.flavor
+  - ArmorShardSpecial.displayName
+  - ArmorShardSpecial.description
+  - ArmorShardSpecial.flavor
+  - BrusselSprouts.displayName
+  - BrusselSprouts.description
+  - BrusselSprouts.flavor
+  - BrusselSproutsCrispy.displayName
+  - BrusselSproutsCrispy.description
+  - BrusselSproutsCrispy.flavor
+  - MashedPotatoes.displayName
+  - MashedPotatoes.description
+  - MashedPotatoes.flavor
+  - MashedPotatoesGarlic.displayName
+  - MashedPotatoesGarlic.description
+  - MashedPotatoesGarlic.flavor
+  - PolluteBasic.displayName
+  - PolluteBasic.description
+  - PolluteBasic.flavor
+  - Sandwich.displayName
+  - Sandwich.description
+  - Sandwich.flavor
+  - SandwichGolden.displayName
+  - SandwichGolden.description
+  - SandwichGolden.flavor
+  - SandwichSmoked.displayName
+  - SandwichSmoked.description
+  - SandwichSmoked.flavor
+  - Turkey.displayName
+  - Turkey.description
+  - Turkey.flavor
+  - TurkeyGolden.displayName
+  - TurkeyGolden.description
+  - TurkeyGolden.flavor
+  - GlennHex.displayName
+  - GlennHex.description
+  - GlennHex.flavor
+  - Terminus.displayName
+  - Terminus.description
+  - Terminus.flavor
+  - GoldPotion.displayName
+  - GoldPotion.description
+  - GoldPotion.flavor
+  - HolyTonic.displayName
+  - HolyTonic.description
+  - HolyTonic.flavor
+  - HourGlass.displayName
+  - HourGlass.description
+  - HourGlass.flavor
+  - PotionEmpty.displayName
+  - PotionEmpty.description
+  - PotionEmpty.flavor
+  - QuickSilver.displayName
+  - QuickSilver.description
+  - QuickSilver.flavor
+  - Timer.displayName
+  - Timer.description
+  - Timer.flavor
+  - TortoiselOil.displayName
+  - TortoiselOil.description
+  - TortoiselOil.flavor
+  - AbyssalCrystal.displayName
+  - AbyssalCrystal.description
+  - AbyssalCrystal.flavor
+  - AllThatGlitters.displayName
+  - AllThatGlitters.description
+  - AllThatGlitters.flavor
+  - BrambleVest.displayName
+  - BrambleVest.description
+  - BrambleVest.flavor
+  - CrystalBasting.displayName
+  - CrystalBasting.description
+  - CrystalBasting.flavor
+  - Demon.displayName
+  - Demon.description
+  - Demon.flavor
+  - Disastrous.displayName
+  - Disastrous.description
+  - Disastrous.flavor
+  - ElectricShock.displayName
+  - ElectricShock.description
+  - ElectricShock.flavor
+  - EndlessShackles.displayName
+  - EndlessShackles.description
+  - EndlessShackles.flavor
+  - EndureBuff.displayName
+  - EndureBuff.description
+  - EndureBuff.flavor
+  - Endure.displayName
+  - Endure.description
+  - Endure.flavor
+  - Erosion.displayName
+  - Erosion.description
+  - Erosion.flavor
+  - FireAxe.displayName
+  - FireAxe.description
+  - FireAxe.flavor
+  - FrostArmor.displayName
+  - FrostArmor.description
+  - FrostArmor.flavor
+  - FrozenOrb.displayName
+  - FrozenOrb.description
+  - FrozenOrb.flavor
+  - GhostlyIchor.displayName
+  - GhostlyIchor.description
+  - GhostlyIchor.flavor
+  - HalfTimeBreak.displayName
+  - HalfTimeBreak.description
+  - HalfTimeBreak.flavor
+  - Heart.displayName
+  - Heart.description
+  - Heart.flavor
+  - HolyLightDevotion.displayName
+  - HolyLightDevotion.description
+  - HolyLightDevotion.flavor
+  - Lust.displayName
+  - Lust.description
+  - Lust.flavor
+  - MealTicketGold.displayName
+  - MealTicketGold.description
+  - MealTicketGold.flavor
+  - MealTicketHigh.displayName
+  - MealTicketHigh.description
+  - MealTicketHigh.flavor
+  - MealTicketSpecial.displayName
+  - MealTicketSpecial.description
+  - MealTicketSpecial.flavor
+  - MoldyCrossBun.displayName
+  - MoldyCrossBun.description
+  - MoldyCrossBun.flavor
+  - NaughtyBomb.displayName
+  - NaughtyBomb.description
+  - NaughtyBomb.flavor
+  - PlantReaper.displayName
+  - PlantReaper.description
+  - PlantReaper.flavor
+  - PonzuScale.displayName
+  - PonzuScale.description
+  - PonzuScale.flavor
+  - StandardRing.displayName
+  - StandardRing.description
+  - StandardRing.flavor
+  - StarMarkedBuckler.displayName
+  - StarMarkedBuckler.description
+  - StarMarkedBuckler.flavor
+  - SteelFleshBuff.displayName
+  - SteelFleshBuff.description
+  - SteelFleshBuff.flavor
+  - SteelFlesh.displayName
+  - SteelFlesh.description
+  - SteelFlesh.flavor
+  - TimerRelic.displayName
+  - TimerRelic.description
+  - TimerRelic.flavor
+  - VariationFloatBoot.displayName
+  - VariationFloatBoot.description
+  - VariationFloatBoot.flavor
+  - WalkingLight.displayName
+  - WalkingLight.description
+  - WalkingLight.flavor
+  Texts:
+  - Evolution
+  - Maximum health+3%, damage taken -3%, healing increased by+5%, gold obtained+5%,
+    store price -5%
+  - Semi comprehensive improvement can also be considered as evolution
+  - PolluteBlessing
+  - Polluted blessings have no effect
+  - Only when holding pollution will it fall off
+  - Speed
+  - Movement speed+0.25, swing speed+0.0625, throwing speed+1
+  - None
+  - BloodAltar
+  - Using the altar will deal direct damage of 10% of maximum health
+  - None
+  - BrokenArmor
+  - Maybe we need to replace it with a better armor
+  - Maybe we need to replace it with a better armor
+  - Darkness
+  - Torch lanterns no longer provide illumination
+  - None
+  - DisasterChest
+  - Torch lanterns no longer provide illumination. Opening a treasure chest will
+    deal direct damage of 10% of maximum health, but will generate a treasure chest
+    monster
+  - None
+  - Eater
+  - Dropped items have a 25% chance of being destroyed
+  - None
+  - ElementBan
+  - Unable to cause elemental damage
+  - None
+  - GreedyCat
+  - 30% reduction in gold obtained and 20% increase in store prices
+  - None
+  - Hidden
+  - After entering the room for 1 second, 2-3 enemies gain invisibility effects
+  - The boss room will not take effect
+  - Inhibitor
+  - Take an additional 2 direct damage points when taking damage
+  - None
+  - Miniaturize
+  - For every 5 enemies killed, reduce 1 point of throwing and swinging damage
+  - None
+  - Pollute
+  - Some useless items will be added to the drop pool
+  - Invalid disable
+  - Resistance
+  - Reduce physical damage received by all enemies by 20-80% when entering the room
+  - Boss room will not take effect, enemies in the same room will gain the same resistance
+  - ResourceShortage
+  - There is a 35% chance of losing a bomb or key when obtaining it
+  - None
+  - ArmorBreaker
+  - 20% chance to replenish some armor
+  - Only drop if there is an armor slot and there is hunger or contamination present
+  - ArmorShardSpecial
+  - Add 2 points of armor
+  - None
+  - BrusselSprouts
+  - Restore 5 health points
+  - Cannot be cooked or contaminated, only drops when contaminated
+  - BrusselSproutsCrispy
+  - Restore 1 health point
+  - Cannot be cooked or contaminated, only drops when contaminated
+  - MashedPotatoes
+  - Maximum health increased by 5 points and restored by 10 points
+  - Unable to be cooked or contaminated, will not drop when holding hungry, plague,
+    or golden delicacies
+  - MashedPotatoesGarlic
+  - Maximum health increased by 10 points and restored by 20 points
+  - Unable to be cooked or contaminated, will not drop when holding hungry, plague,
+    or golden delicacies
+  - PolluteBasic
+  - No effect
+  - Only when holding pollution will it fall off
+  - Sandwich
+  - Restore 100 health points
+  - Unable to be cooked or contaminated, will not drop when holding hungry, plague,
+    or golden delicacies
+  - SandwichGolden
+  - Restore 100 health points and receive 500 gold
+  - Will only drop when holding golden cuisine and not holding hunger and plague
+  - SandwichSmoked
+  - Restore 125 health points
+  - Unable to be cooked or contaminated, will not drop when holding hungry, plague,
+    or golden delicacies
+  - Turkey
+  - Restore 75 health points
+  - Unable to be cooked or contaminated, will not drop when holding hungry, plague,
+    or golden delicacies
+  - TurkeyGolden
+  - Restore 75 health points and receive 350 gold
+  - Will only drop when holding golden cuisine and not holding hunger and plague
+  - GlennHex
+  - Reduce all damage by 50% -150%, changing every 10 seconds
+  - None
+  - Terminus
+  - Take direct damage of 25% of maximum health every 60 seconds
+  - This damage will not be blocked
+  - GoldPotion
+  - Get 100-500 gold
+  - None
+  - HolyTonic
+  - During the duration, each consumption of the potion will restore 5% of the maximum
+    health for 30 seconds
+  - None
+  - HourGlass
+  - Select blessings and remove them to receive a reward based on the level of blessings
+    removed 1. Obtain a blessing;> 2. Drop a blessing;> 3. Obtain a sacred object;>
+    4. Drop a sacred object
+  - Discard useless blessings
+  - PotionEmpty
+  - No effect
+  - Only when holding pollution will it fall off
+  - QuickSilver
+  - Move to the next level in 1 second, open all maps, and drop a holy item and blessing
+  - None
+  - Timer
+  - Pause all enemy actions for 8 seconds
+  - Will not interrupt ongoing actions, duration will not trigger any actions
+  - TortoiselOil
+  - Curse the torch and obtain 2 bombs
+  - None
+  - AbyssalCrystal
+  - When entering the next level, if the probability of the demon room is less than
+    -15, it will be reset to 0, but will receive 3 major curses. Whenever you receive
+    3 curses, drop a bottle of potion.
+  - None
+  - AllThatGlitters
+  - Picking up non sacred items, potions, and gold items will earn 10 points of gold
+  - Activate full blood to eat meat
+  - BrambleVest
+  - When dealing physical damage to enemies, an additional 20% of the direct damage
+    will be dealt
+  - Made using Ponzo scales, therefore ineffective against Ponzo.
+  - CrystalBasting
+  - Bomb damage increased by 10%, explosion range increased by 1
+  - None
+  - Demon
+  - Entering the initial room for the first time or again will result in 3 major
+    curses, while generating the entrance to the demon room
+  - None
+  - Disastrous
+  - When dealing damage to enemies, it increases their damage by 5% for 5 seconds,
+    with a maximum of 10 layers
+  - None
+  - ElectricShock
+  - Contact enemies with electric shock, deal 30% strike damage and lightning damage
+  - None
+  - EndlessShackles
+  - Get 3 Great Curses, drop 1 Relic, and 2 Blessings for every 6 rooms you enter
+  - Curse the Holy Relic
+  - EndureBuff
+  - Physical damage will temporarily reduce damage taken by 5% for 5 seconds, with
+    a maximum of 5 layers
+  - None
+  - Endure
+  - Physical damage will temporarily reduce damage taken by 5% for 5 seconds, with
+    a maximum of 5 layers
+  - None
+  - Erosion
+  - When attacking an enemy, there is a 25% chance to deal 50% of their maximum health
+    as direct damage, lasting for 5 seconds
+  - Invalid for boss
+  - FireAxe
+  - When wielding, there is a 50% chance to fire flame projectiles
+  - Fire throwing objects will not hit items
+  - FrostArmor
+  - At the beginning of the battle, permanently reduce the enemy's movement speed
+    by 30%.
+  - None
+  - FrozenOrb
+  - Attack has a 20% chance to move the target for 2 seconds, and then deal a 3 *
+    3 grid ice element damage centered on the target
+  - None
+  - GhostlyIchor
+  - When entering battle, one enemy will become a friendly, and when that friendly
+    dies, it will deal direct damage to all enemies by 50% of their maximum health
+  - It won't take effect in the boss room
+  - HalfTimeBreak
+  - Restore 5% health after the battle ends
+  - None
+  - Heart
+  - Each overflow of 1 healing effect will be converted to 2 gold points
+  - None
+  - HolyLightDevotion
+  - There is a 60% chance to receive blessings and small curses when using the altar
+  - None
+  - Lust
+  - Lose up to 5000 gold, gain 200 temporary health points, and consume temporary
+    health points every time you take immediate damage to offset the damage
+  - Unable to resist overflow effects, only appearing after layer 6
+  - MealTicketGold
+  - Gold hot dogs will drop when entering the pilfer shop
+  - Store in bottle invalid
+  - MealTicketHigh
+  - Roasted chicken will drop when entering the pilfer shop
+  - Store in bottle invalid
+  - MealTicketSpecial
+  - When entering the pilfer shop, restore 200 health points and earn 1000 gold
+  - Store in bottle invalid
+  - MoldyCrossBun
+  - Increase maximum health by 5 points
+  - Only when holding pollution will it fall off
+  - NaughtyBomb
+  - When enemies die, there is a 20% chance to generate bomb monsters, which are
+    considered as bombs released by oneself
+  - None
+  - PlantReaper
+  - Killing plants will restore 3 health points
+  - None
+  - PonzuScale
+  - When a bomb explodes, it will inflict a stumbling effect of 1 second and a 10%
+    increase in damage on all enemies
+  - None
+  - StandardRing
+  - Maximum health fixed at 300, damage fixed at 50, 40,150
+  - None
+  - StarMarkedBuckler
+  - When hit, there is a 20% chance of immunity to the attack
+  - None
+  - SteelFleshBuff
+  - Dealing damage to enemies will temporarily increase damage by 1% for 5 seconds,
+    with a maximum of 50 layers.
+  - None
+  - SteelFlesh
+  - Dealing damage to enemies will temporarily increase damage by 1% for 5 seconds,
+    with a maximum of 50 layers.
+  - None
+  - TimerRelic
+  - Pause enemy actions for 1.5 seconds after entering the room
+  - Will not interrupt ongoing actions, duration will not trigger any actions
+  - VariationFloatBoot
+  - Increase movement speed by 0.5, eat almost all traps upon entering the room,
+    and obtain a floating effect after eating 30 objects
+  - None
+  - WalkingLight
+  - Torch lanterns will help you attack enemies
+  - Every 2-4s, 2-3 torches will attack nearby enemies

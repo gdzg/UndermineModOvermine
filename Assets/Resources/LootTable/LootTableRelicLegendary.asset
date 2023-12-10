@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LootTableRelicLegendary
+  m_EditorClassIdentifier: 
+  m_guid: 528051ae0ce44c4384daf6b1bed91ab4
+  m_name: LootTableRelicLegendary
+  m_randStateType: 0
+  m_rerollHint: 0
+  m_fallbackTable: {fileID: 0}
+  m_defaultLoot: {fileID: 0}
+  m_loot:
+  - weight: 1
+    item: {fileID: 11400000, guid: 8648f2e4fe30191449a1b3201dd28c28, type: 2}
+  Replace: 0

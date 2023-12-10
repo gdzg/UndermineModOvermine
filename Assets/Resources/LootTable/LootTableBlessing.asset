@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LootTableBlessing
+  m_EditorClassIdentifier: 
+  m_guid: e2e4da02cd7847abae5d2519fd618110
+  m_name: LootTableBlessing
+  m_randStateType: 3
+  m_rerollHint: 16777216
+  m_fallbackTable: {fileID: 0}
+  m_defaultLoot: {fileID: 0}
+  m_loot:
+  - weight: 3
+    item: {fileID: 11400000, guid: d12927e9e2488244e918e77f34d690f0, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: 31d252058ddfce44b9968576cba41dc5, type: 2}
+  - weight: 25
+    item: {fileID: 11400000, guid: f093cf83fa81ed142864ea766acbb017, type: 2}
+  Replace: 0

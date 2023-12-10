@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 568847093, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: LootTableFoodShop
+  m_EditorClassIdentifier: 
+  m_guid: ba0e101a505447aca5682ae064681c73
+  m_name: LootTableFoodShop
+  m_randStateType: 11
+  m_rerollHint: 0
+  m_fallbackTable: {fileID: 0}
+  m_defaultLoot: {fileID: 0}
+  m_loot:
+  - weight: 60
+    item: {fileID: 11400000, guid: 7b5e2b25d8a60244d904824a25664796, type: 2}
+  - weight: 20
+    item: {fileID: 11400000, guid: bdf525af312d1e845a24cf8a3ae8d688, type: 2}
+  - weight: 7
+    item: {fileID: 11400000, guid: c828e32dbefb42a4ca1171341c33dbb6, type: 2}
+  - weight: 10
+    item: {fileID: 11400000, guid: e7f07b3b26b6d7b40b2bba51565a8c30, type: 2}
+  - weight: 40
+    item: {fileID: 11400000, guid: 876f618b248a3b346b8de28f1315d708, type: 2}
+  - weight: 4
+    item: {fileID: 11400000, guid: feb026e8232bd61468638c75cc421255, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: ae90c1bbd3a704042a08a60a345cc875, type: 2}
+  - weight: 1
+    item: {fileID: 11400000, guid: 1d355f84cec302446bf2ed7d851d4edd, type: 2}
+  - weight: 2
+    item: {fileID: 11400000, guid: 573ac1d4eb98a8e418f4d7b45b1102c2, type: 2}
+  - weight: 3
+    item: {fileID: 11400000, guid: 5870723e0a9238c4c98494ed2a225b7d, type: 2}
+  - weight: 1
+    item: {fileID: 11400000, guid: 8343f91660db38249aa41147ed90a842, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: f1b89066708cb9142bdd779b2d29ace7, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: 9e3edf8cf311b6b43b21206cb7febe0c, type: 2}
+  - weight: 25
+    item: {fileID: 11400000, guid: da928be91e36f3f4f9a1b4adc9061eec, type: 2}
+  - weight: 20
+    item: {fileID: 11400000, guid: 7b69304fb50581e43ae1f24cc2cdc801, type: 2}
+  Replace: 1
