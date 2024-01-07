@@ -66,7 +66,7 @@ MonoBehaviour:
       Version: 1.5.7
   m_preProcess: 0
   m_autoStart: 1
-  m_restartWhenComplete: 1
+  m_restartWhenComplete: 0
   m_pauseWhenDisabled: 0
   m_interruptable: 0
   Variables:

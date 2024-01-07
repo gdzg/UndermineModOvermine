@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1039079324, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
   m_Name: CrystalBastingItem
   m_EditorClassIdentifier: 
-  m_guid: 6dc2db6b-72cc-4d88-a550-bd03d23f5223
+  m_guid: 6164177b-1b62-420d-9e74-71cd46e03653
   m_icon: {fileID: 21300000, guid: 9a05dbdc587885849a206e2b57165fa3, type: 3}
   m_portrait: {fileID: 0}
   m_displayName:
@@ -22,9 +22,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: CrystalBasting.displayName
   m_description:
     m_id: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: CrystalBasting.description
   m_flavor:
     m_id: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: CrystalBasting.flavor
   m_rarity: 0
   m_showInJournal: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_costGroups:
   - type: 1
     costs:
-    - mAmount: 300
+    - mAmount: 400
       mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
   m_maxDropCount: 1
   m_isDefault: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_autoUnlock: 0
   m_rerollable: 1
   m_allowOnAltar: 1
-  m_pickedUpBehavior: {fileID: 11400000, guid: f09460d3d77e5ac43813d5819f0bb932, type: 2}
+  m_pickedUpBehavior: {fileID: 11400000, guid: e8f6e2f4df73fb745a8b69368c1a163b, type: 2}
   m_secondaryPickedUpBehavior: {fileID: 0}
   m_isSpecialDrop: 0
   m_isSpecialDiscovery: 0

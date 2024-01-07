@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 544464033, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: ae2ff539eb8e1c8429b8d7a27ed171d5, type: 2}
-  m_guid: ae38d3a1-fc5c-4a38-ab57-0eabc0055dbe
+  m_data: {fileID: 11400000, guid: d7cc7787b2f068c4c8f930988d8d43f5, type: 2}
+  m_guid: 4c146d86-94bb-4e65-b944-e477b75eccdd
   m_constrain: 0
   m_filterable: 0
   m_persistent: 1
@@ -84,4 +84,4 @@ MonoBehaviour:
   m_userDataFormat: 
   m_levelFormat: '{0}'
   m_behaviors:
-  - {fileID: 11400000, guid: 8e8114e3aec49574a953d85d97f1fc56, type: 2}
+  - {fileID: 11400000, guid: dc072fb9f3cdd2549a7c314886f7388d, type: 2}

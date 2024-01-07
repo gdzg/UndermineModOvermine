@@ -10,7 +10,12 @@
         "BehaviorDesigner.Runtime.dll",
         "Overmine.API.dll",
         "UnderMine.dll",
-        "Unity.TextMeshPro.dll"
+        "Unity.TextMeshPro.dll",
+        "DOTween46.dll",
+        "DOTween.dll",
+        "Rewired.Unity.dll",
+        "Rewired_Core.dll",
+        "Rewired_Windows.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

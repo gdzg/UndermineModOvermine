@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1035995740, guid: 421ae4f72b4255642983b93487241616, type: 3}
   m_Name: LocDBKorean
   m_EditorClassIdentifier: 
-  Language: 6
+  Language: 8
   Entries:
   - Key: Evolution.displayName
     Text: "\u8FDB\u5316"

@@ -21,4 +21,6 @@ MonoBehaviour:
   m_loot:
   - weight: 15
     item: {fileID: 11400000, guid: a2d6deb41fb87bc44b82db96248c306f, type: 2}
+  - weight: 5
+    item: {fileID: 11400000, guid: 6228fe21f2b06ab45a8ef7a263b64ece, type: 2}
   Replace: 0

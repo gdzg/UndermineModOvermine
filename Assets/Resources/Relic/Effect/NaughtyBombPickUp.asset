@@ -20,50 +20,21 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: "{\r\n  \"EntryTask\": {\r\n    \"Type\": \"BehaviorDesigner.Runtime.Tasks.EntryTask\",\r\n   
-        \"ID\": 0,\r\n    \"Name\": \"Entry Task\",\r\n    \"Instant\": true,\r\n   
-        \"NodeData\": {\r\n      \"Offset\": \"(544,384)\"\r\n    }\r\n  },\r\n 
-        \"RootTask\": {\r\n    \"Type\": \"Thor.AddStatusEffect\",\r\n    \"ID\":
-        1,\r\n    \"Name\": \"Add Status Effect\",\r\n    \"Instant\": true,\r\n   
-        \"NodeData\": {\r\n      \"Offset\": \"(544,480)\"\r\n    },\r\n    \"SharedEntitym_target\":
-        {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Target\",\r\n     
-        \"IsShared\": true\r\n    },\r\n    \"SharedEntitym_statusEffect\": {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": null,\r\n      \"EntitymValue\":
-        0\r\n    },\r\n    \"StatusEffectDatam_data\": {\r\n      \"SharedIntlevel\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedInt\",\r\n       
-        \"Name\": null,\r\n        \"Int32mValue\": 0\r\n      },\r\n      \"SharedFloatduration\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedFloat\",\r\n       
-        \"Name\": null,\r\n        \"SinglemValue\": 0.0\r\n      },\r\n      \"SharedIntuserData\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedInt\",\r\n       
-        \"Name\": null,\r\n        \"Int32mValue\": 0\r\n      },\r\n      \"SharedStringuserString\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedString\",\r\n       
-        \"Name\": null,\r\n        \"StringmValue\": \"\"\r\n      },\r\n      \"SharedStringhint\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedString\",\r\n       
-        \"Name\": null,\r\n        \"StringmValue\": \"\"\r\n      },\r\n      \"SharedBoolsticky\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedBool\",\r\n       
-        \"Name\": null,\r\n        \"BooleanmValue\": false\r\n      },\r\n     
-        \"Booleanblocked\": false,\r\n      \"Int32modifiedLevel\": 0,\r\n      \"SinglemodifiedDuration\":
-        0.0,\r\n      \"BooleanmodifiedSticky\": false,\r\n      \"SingledurationRatio\":
-        1.0\r\n    },\r\n    \"SharedEntitym_source\": {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Self\",\r\n      \"IsShared\": true\r\n    }\r\n  },\r\n  \"Variables\":
-        [\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Self\",\r\n     
-        \"IsShared\": true\r\n    },\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Owner\",\r\n      \"IsShared\": true\r\n    },\r\n    {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Root\",\r\n      \"IsShared\":
-        true\r\n    },\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Link\",\r\n      \"IsShared\": true\r\n    },\r\n    {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Target\",\r\n     
-        \"IsShared\": true\r\n    }\r\n  ]\r\n}"
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(666.0004,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,120)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.Equip","NodeData":{"Offset":"(-102,168)"},"ID":2,"Name":"Equip","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"EquipmentExtm_equipment":0,"SharedStringm_slot":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"bomb"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(70,178)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.CompareDropCount","NodeData":{"Offset":"(-70.99957,154)","Comment":"DropCount
+        > 1?"},"ID":4,"Name":"Compare Drop Count","Instant":true,"SharedDataObjectm_data":{"Type":"Thor.SharedDataObject","Name":null,"DataObjectmValue":1},"Operationm_operation":"GreaterThan","SharedIntm_count":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1}},{"Type":"Thor.ChangeResource","NodeData":{"Offset":"(111.00061,154)","Comment":"+1
+        Bomb"},"ID":5,"Name":"Change Resource","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"ResourceDatam_resource":2,"SharedIntm_amount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolm_allowPartial":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_silent":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true}}]}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"Thor.SharedEntity","Name":"Bomb","IsShared":true}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
         startIndex: 
         dataPosition: 
         unityObjects:
-        - {fileID: 4473314973597962199, guid: 36b18d0235ae7c34d9e75736ee9679f9, type: 3}
+        - {fileID: -1054617070525846765, guid: 4a9abbdfc0b901140b28592bed8e8b4a, type: 3}
+        - {fileID: 11400000, guid: ae2ff539eb8e1c8429b8d7a27ed171d5, type: 2}
+        - {fileID: 11400000, guid: fbd78ef837ee4fe4592b91a7d166bacc, type: 2}
         byteData: 
         byteDataArray: 
-      Version: 1.5.7
+      Version: 1.7.1
   m_preProcess: 0
   m_autoStart: 1
   m_restartWhenComplete: 1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: PackagePickUp
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(777.0005,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(-3.67236328,160)"},"ID":1,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.PlayAudio","NodeData":{"Offset":"(-235.499512,138)"},"ID":2,"Name":"Play
+        Audio","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"Stringm_name":"event:/Items/Key_Pickup","AudioEventOperationm_operation":"PlayOnce"},{"Type":"Thor.ChangeResource","NodeData":{"Offset":"(-70,140)"},"ID":3,"Name":"Change
+        Resource","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"ResourceDatam_resource":0,"SharedIntm_amount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolm_allowPartial":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_silent":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true}},{"Type":"Thor.ChangeResource","NodeData":{"Offset":"(100,140)"},"ID":4,"Name":"Change
+        Resource","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"ResourceDatam_resource":1,"SharedIntm_amount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedBoolm_allowPartial":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_silent":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true}}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Healing","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"FoodStrength","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"ShakerLevel","IsShared":true,"Int32mValue":0}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 11400000, guid: fbd78ef837ee4fe4592b91a7d166bacc, type: 2}
+        - {fileID: 11400000, guid: 9c1a85a5cf4e9954eba0cc02e52e863e, type: 2}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 1
+  m_restartWhenComplete: 0
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0
+  Variables:
+  - Name: Entities
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Avatars
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Items
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Projectiles
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Bosses
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Hazards
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Player
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Zone
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Seed
+    IsGlobal: 1
+    _type: BehaviorDesigner.Runtime.SharedInt, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Self
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Owner
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Root
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Link
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Target
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

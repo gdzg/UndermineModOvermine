@@ -58,7 +58,7 @@ MonoBehaviour:
   m_costGroups:
   - type: 1
     costs:
-    - mAmount: 0
+    - mAmount: 280
       mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
   m_maxDropCount: 1
   m_isDefault: 1

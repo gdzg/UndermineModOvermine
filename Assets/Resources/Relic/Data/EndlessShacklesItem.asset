@@ -22,9 +22,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: EndlessShackles.displayName
   m_description:
     m_id: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: EndlessShackles.description
   m_flavor:
     m_id: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: EndlessShackles.flavor
   m_rarity: 3
   m_showInJournal: 1
@@ -62,8 +62,10 @@ MonoBehaviour:
       mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
   - type: 3
     costs:
-    - mAmount: 5
+    - mAmount: 2
       mData: {fileID: 11400000, guid: d7d8fa062578cd64b901fa19ae6142fb, type: 2}
+    - mAmount: 2
+      mData: {fileID: 11400000, guid: e7596540f4fb85f488a9b462d6a4674c, type: 2}
   m_maxDropCount: 1
   m_isDefault: 1
   m_isDefaultDiscovered: 1

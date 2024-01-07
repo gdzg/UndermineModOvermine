@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: NaughtyBombEquipped
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(111.000267,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Parallel","NodeData":{"Offset":"(1.00039673,116)"},"ID":1,"Name":"Parallel","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.WaitForUnequippedEvent","NodeData":{"Offset":"(-279.999847,162)"},"ID":2,"Name":"Wait
+        For Unequipped Event","Instant":true,"SharedEntitym_unequipperOutput":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedVector3m_positionOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatm_timeout":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"Thor.SetScratchEntity","NodeData":{"Offset":"(0.0009945064,118)","Comment":"BombBasic"},"ID":3,"Name":"Set
+        Scratch Entity","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedStringm_key":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"bomb"},"SharedEntitym_value":{"Type":"Thor.SharedEntity","Name":null,"EntitymValue":0}}]},{"Type":"Thor.WaitForEquippedEvent","NodeData":{"Offset":"(2.00083923,162)"},"ID":4,"Name":"Wait
+        For Equipped Event","Instant":true,"SharedEntitym_equipperOutput":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedVector3m_positionOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatm_timeout":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"Thor.SetScratchEntity","NodeData":{"Offset":"(2.00097656,118)"},"ID":5,"Name":"Set
+        Scratch Entity","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedStringm_key":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"bomb"},"SharedEntitym_value":{"Type":"Thor.SharedEntity","Name":null,"EntitymValue":1}}]},{"Type":"Thor.WaitForEntitySpawnedEvent","NodeData":{"Offset":"(246.500244,157)"},"ID":6,"Name":"Wait
+        For Entity Spawned Event","Instant":true,"SharedEntitym_entityOutput":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"SharedVector3m_positionOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedStringm_tag":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"enemy"},"SharedStringm_name":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(1.50024414,133)"},"ID":7,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"CompareEntityGuid","NodeData":{"Offset":"(-542.499756,140)"},"ID":8,"Name":"Compare
+        Entity Guid","Instant":true,"Stringguid":"523009b8775f471ea28ef583c40bb77f","SharedEntityinput":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true}},{"Type":"Thor.GetOwner","NodeData":{"Offset":"(-374.499756,141)"},"ID":9,"Name":"Get
+        Owner","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"SharedEntitym_output":{"Type":"Thor.SharedEntity","Name":"TickerOwner","IsShared":true}},{"Type":"Thor.AllianceFilter","NodeData":{"Offset":"(-236.499756,144)"},"ID":10,"Name":"Alliance
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},"List`1m_alliances":["Self"],"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"TickerOwner","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":null,"IsShared":true,"EntityListmValue":{}}},{"Type":"Thor.AddTag","NodeData":{"Offset":"(-105.499756,142)"},"ID":11,"Name":"Add
+        Tag","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"Tagm_tag":{"Stringm_value":"live_bomb"}},{"Type":"Thor.AddTag","NodeData":{"Offset":"(10,140)"},"ID":12,"Name":"Add
+        Tag","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"Tagm_tag":{"Stringm_value":"player_bomb"}},{"Type":"Thor.AddModifier","NodeData":{"Offset":"(139.999268,140)"},"ID":13,"Name":"Add
+        Modifier","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"Modifierm_modifier":{"Stringid":"","StringtypeName":"Thor.MoverExt","StringmemberName":"MoveType","StringoperatorName":"~=","SharedBoolboolAmount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatfloatAmount":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"Int32order":0,"Booleanautosave":false},"Booleanm_dynamicID":true,"Booleanm_removeOnComplete":false,"Booleanm_isBase":false},{"Type":"Thor.AddModifier","NodeData":{"Offset":"(268.547363,144.042053)"},"ID":14,"Name":"Add
+        Modifier","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"Modifierm_modifier":{"Stringid":"","StringtypeName":"Thor.HealthExt","StringmemberName":"DamageAmp","StringoperatorName":"=","SharedBoolboolAmount":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatfloatAmount":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":-0.75},"Int32order":0,"Booleanautosave":false},"Booleanm_dynamicID":true,"Booleanm_removeOnComplete":false,"Booleanm_isBase":false},{"Type":"Thor.AddExternalBehaviors","NodeData":{"Offset":"(429.500244,136)"},"ID":15,"Name":"Add
+        External Behaviors","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},"BehaviorContainerm_externalBehaviors":2}]}]}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"Thor.SharedEntity","Name":"Ticker","IsShared":true},{"Type":"Thor.SharedEntity","Name":"TickerOwner","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"DamageAmp","IsShared":true,"SinglemValue":0}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 3814817725400907871, guid: f06c7b687a7ac39428d1f74a343f626c, type: 3}
+        - {fileID: 6942744875991118247, guid: 21df40a2e88751e41bb4e0d42d80a42a, type: 3}
+        - {fileID: 7277417477410502693, guid: 7cf1788b0199b0147a3e45d5acfe4dd4, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 1
+  m_autoStart: 1
+  m_restartWhenComplete: 0
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0
+  Variables:
+  - Name: Entities
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Avatars
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Items
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Projectiles
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Bosses
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Hazards
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Player
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Zone
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Seed
+    IsGlobal: 1
+    _type: BehaviorDesigner.Runtime.SharedInt, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Self
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Owner
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Root
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Link
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Target
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

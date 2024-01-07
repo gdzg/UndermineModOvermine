@@ -48,14 +48,15 @@ MonoBehaviour:
   - Key: Darkness.displayName
     Text: Darkness
   - Key: Darkness.description
-    Text: Torch lanterns no longer provide illumination
+    Text: When entering the battle room, the torch lantern no longer provides illumination.
+      After the battle is over, the torch lantern returns to illumination
   - Key: Darkness.flavor
     Text: None
   - Key: DisasterChest.displayName
     Text: DisasterChest
   - Key: DisasterChest.description
     Text: Torch lanterns no longer provide illumination. Opening a treasure chest
-      will deal direct damage of 10% of maximum health, but will generate a treasure
+      will deal direct damage of  20% of maximum health, but will generate a treasure
       chest monster
   - Key: DisasterChest.flavor
     Text: None
@@ -214,7 +215,7 @@ MonoBehaviour:
   - Key: HolyTonic.displayName
     Text: HolyTonic
   - Key: HolyTonic.description
-    Text: During the duration, each consumption of the potion will restore 5% of
+    Text: During the duration, each consumption of the potion will restore 10% of
       the maximum health for 30 seconds
   - Key: HolyTonic.flavor
     Text: None
@@ -255,8 +256,8 @@ MonoBehaviour:
     Text: AbyssalCrystal
   - Key: AbyssalCrystal.description
     Text: When entering the next level, if the probability of the demon room is less
-      than -15, it will be reset to 0, but will receive 3 major curses. Whenever
-      you receive 3 curses, drop a bottle of potion.
+      than -15, it will be reset to 0, but will receive 4 curses. Whenever you receive
+      3 curses, drop a bottle of potion.
   - Key: AbyssalCrystal.flavor
     Text: None
   - Key: AllThatGlitters.displayName
@@ -276,7 +277,8 @@ MonoBehaviour:
   - Key: CrystalBasting.displayName
     Text: CrystalBasting
   - Key: CrystalBasting.description
-    Text: Bomb damage increased by 10%, explosion range increased by 1
+    Text: When enemies die, there is a 20% chance to generate bomb monsters, which
+      are considered as bombs released by oneself
   - Key: CrystalBasting.flavor
     Text: None
   - Key: Demon.displayName
@@ -296,7 +298,7 @@ MonoBehaviour:
   - Key: ElectricShock.displayName
     Text: ElectricShock
   - Key: ElectricShock.description
-    Text: Contact enemies with electric shock, deal 30% strike damage and lightning
+    Text: Contact enemies with electric shock, deal 60% strike damage and lightning
       damage
   - Key: ElectricShock.flavor
     Text: None
@@ -358,7 +360,7 @@ MonoBehaviour:
   - Key: HalfTimeBreak.displayName
     Text: HalfTimeBreak
   - Key: HalfTimeBreak.description
-    Text: Restore 5% health after the battle ends
+    Text: Restore 10% health after the battle ends
   - Key: HalfTimeBreak.flavor
     Text: None
   - Key: Heart.displayName
@@ -409,21 +411,21 @@ MonoBehaviour:
   - Key: NaughtyBomb.displayName
     Text: NaughtyBomb
   - Key: NaughtyBomb.description
-    Text: When enemies die, there is a 20% chance to generate bomb monsters, which
-      are considered as bombs released by oneself
+    Text: Release the bomb and turn it into a bomb monster
   - Key: NaughtyBomb.flavor
-    Text: None
+    Text: If there are no enemies within a 5 * 5 range when generating a bomb monster,
+      the bomb monster will be slowed down and explode in 1.5 seconds
   - Key: PlantReaper.displayName
     Text: PlantReaper
   - Key: PlantReaper.description
-    Text: Killing plants will restore 3 health points
+    Text: Killing plants will restore 2% health points
   - Key: PlantReaper.flavor
     Text: None
   - Key: PonzuScale.displayName
     Text: PonzuScale
   - Key: PonzuScale.description
-    Text: When a bomb explodes, it will inflict a stumbling effect of 1 second and
-      a 10% increase in damage on all enemies
+    Text: When a bomb explodes, it will pause the enemy's movements for 0.8 seconds
+      and increase damage by 20%
   - Key: PonzuScale.flavor
     Text: None
   - Key: StandardRing.displayName
@@ -455,7 +457,7 @@ MonoBehaviour:
   - Key: TimerRelic.displayName
     Text: TimerRelic
   - Key: TimerRelic.description
-    Text: Pause enemy actions for 1.5 seconds after entering the room
+    Text: Pause enemy actions for 1.2 seconds after entering the room
   - Key: TimerRelic.flavor
     Text: Will not interrupt ongoing actions, duration will not trigger any actions
   - Key: VariationFloatBoot.displayName
@@ -700,11 +702,12 @@ MonoBehaviour:
   - Maybe we need to replace it with a better armor
   - Maybe we need to replace it with a better armor
   - Darkness
-  - Torch lanterns no longer provide illumination
+  - When entering the battle room, the torch lantern no longer provides illumination.
+    After the battle is over, the torch lantern returns to illumination
   - None
   - DisasterChest
   - Torch lanterns no longer provide illumination. Opening a treasure chest will
-    deal direct damage of 10% of maximum health, but will generate a treasure chest
+    deal direct damage of  20% of maximum health, but will generate a treasure chest
     monster
   - None
   - Eater
@@ -785,7 +788,7 @@ MonoBehaviour:
   - Get 100-500 gold
   - None
   - HolyTonic
-  - During the duration, each consumption of the potion will restore 5% of the maximum
+  - During the duration, each consumption of the potion will restore 10% of the maximum
     health for 30 seconds
   - None
   - HourGlass
@@ -807,8 +810,8 @@ MonoBehaviour:
   - None
   - AbyssalCrystal
   - When entering the next level, if the probability of the demon room is less than
-    -15, it will be reset to 0, but will receive 3 major curses. Whenever you receive
-    3 curses, drop a bottle of potion.
+    -15, it will be reset to 0, but will receive 4 curses. Whenever you receive 3
+    curses, drop a bottle of potion.
   - None
   - AllThatGlitters
   - Picking up non sacred items, potions, and gold items will earn 10 points of gold
@@ -818,7 +821,8 @@ MonoBehaviour:
     will be dealt
   - Made using Ponzo scales, therefore ineffective against Ponzo.
   - CrystalBasting
-  - Bomb damage increased by 10%, explosion range increased by 1
+  - When enemies die, there is a 20% chance to generate bomb monsters, which are
+    considered as bombs released by oneself
   - None
   - Demon
   - Entering the initial room for the first time or again will result in 3 major
@@ -829,7 +833,7 @@ MonoBehaviour:
     with a maximum of 10 layers
   - None
   - ElectricShock
-  - Contact enemies with electric shock, deal 30% strike damage and lightning damage
+  - Contact enemies with electric shock, deal 60% strike damage and lightning damage
   - None
   - EndlessShackles
   - Get 3 Great Curses, drop 1 Relic, and 2 Blessings for every 6 rooms you enter
@@ -862,7 +866,7 @@ MonoBehaviour:
     dies, it will deal direct damage to all enemies by 50% of their maximum health
   - It won't take effect in the boss room
   - HalfTimeBreak
-  - Restore 5% health after the battle ends
+  - Restore 10% health after the battle ends
   - None
   - Heart
   - Each overflow of 1 healing effect will be converted to 2 gold points
@@ -887,15 +891,15 @@ MonoBehaviour:
   - Increase maximum health by 5 points
   - Only when holding pollution will it fall off
   - NaughtyBomb
-  - When enemies die, there is a 20% chance to generate bomb monsters, which are
-    considered as bombs released by oneself
-  - None
+  - Release the bomb and turn it into a bomb monster
+  - If there are no enemies within a 5 * 5 range when generating a bomb monster,
+    the bomb monster will be slowed down and explode in 1.5 seconds
   - PlantReaper
-  - Killing plants will restore 3 health points
+  - Killing plants will restore 2% health points
   - None
   - PonzuScale
-  - When a bomb explodes, it will inflict a stumbling effect of 1 second and a 10%
-    increase in damage on all enemies
+  - When a bomb explodes, it will pause the enemy's movements for 0.8 seconds and
+    increase damage by 20%
   - None
   - StandardRing
   - Maximum health fixed at 300, damage fixed at 50, 40,150
@@ -912,7 +916,7 @@ MonoBehaviour:
     with a maximum of 50 layers.
   - None
   - TimerRelic
-  - Pause enemy actions for 1.5 seconds after entering the room
+  - Pause enemy actions for 1.2 seconds after entering the room
   - Will not interrupt ongoing actions, duration will not trigger any actions
   - VariationFloatBoot
   - Increase movement speed by 0.5, eat almost all traps upon entering the room,

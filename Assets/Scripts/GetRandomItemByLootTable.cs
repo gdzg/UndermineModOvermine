@@ -1,5 +1,4 @@
-﻿using BehaviorDesigner.Runtime;
-using BehaviorDesigner.Runtime.Tasks;
+﻿using BehaviorDesigner.Runtime.Tasks;
 using Thor;
 using UnityEngine;
 
@@ -8,13 +7,12 @@ public class GetRandomItemByLootTable : Action
 {
     public override TaskStatus OnUpdate()
     {
-        m_Data = m_Data ? m_Data : GameData.Instance.LootTables.Find(s => s.guid == guid);
-        var item = m_Data.GetItem(
-            itemData => itemData.CanDrop(out _));
+        m_Data = m_Data ?? GameData.Instance.LootTables.Find(lootTableData =>  lootTableData.guid == guid);
+        var item = m_Data.GetItem(itemData => itemData.CanDrop(out _));
         output.Value = item;
         if (item != null)
         {
-            if (m_incrementDropCount.Value)
+            if (incrementDropCount)
             {
                 item.DropCount++;
             }
@@ -28,5 +26,5 @@ public class GetRandomItemByLootTable : Action
     private LootTableData m_Data;
     [SerializeField] [RequiredField] private SharedDataObject output;
     
-    [SerializeField] [RequiredField] private SharedBool m_incrementDropCount;
+    [SerializeField] [RequiredField] private bool incrementDropCount;
 }

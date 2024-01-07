@@ -75,9 +75,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_loadOrder: 0
   m_defaultDuration: -1
-  m_maxLevel: -1
-  m_stackPolicy: 0
-  m_position: 1
+  m_maxLevel: 100
+  m_stackPolicy: 3
+  m_position: 0
   m_showInUI: 1
   m_save: 0
   m_saveUserData: 1

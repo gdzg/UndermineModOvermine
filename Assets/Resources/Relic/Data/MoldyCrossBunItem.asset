@@ -22,9 +22,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: MoldyCrossBun.displayName
   m_description:
     m_id: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: MoldyCrossBun.description
   m_flavor:
     m_id: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       mIsGlobal: 0
       mIsDynamic: 0
       mName: 
+      mToolTip: 
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
-      mNetworkSync: 0
       mValue: MoldyCrossBun.flavor
   m_rarity: 0
   m_showInJournal: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
     costs:
     - mAmount: 100
       mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
-  m_maxDropCount: 20
+  m_maxDropCount: 99
   m_isDefault: 1
   m_isDefaultDiscovered: 1
   m_autoUnlock: 0
