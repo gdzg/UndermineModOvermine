@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class MapTeleport : MonoBehaviour
 {
+    private static float Seconds = 0.4f;
+
     private MiniMapCell _cell;
 
     private Room _room;
@@ -53,17 +55,18 @@ public class MapTeleport : MonoBehaviour
 
         var keyboard = primaryPlayer.Input.controllers.Keyboard;
         if (!primaryPlayer.Input.controllers.hasKeyboard || !primaryPlayer.InputEnabled) return;
-        if (_fill.color == _currentColor 
-            && keyboard.GetKeyDown(KeyCode.LeftAlt) 
-            && !QuickMove.CheckStatus(primaryPlayer.Avatar) 
-            && !(currentRoom.DoorState == Room.DoorStateType.Closed 
+        if (_fill.color == _currentColor
+            && keyboard.GetKeyDown(KeyCode.LeftAlt)
+            && !QuickMove.CheckStatus(primaryPlayer.Avatar)
+            && !(currentRoom.DoorState == Room.DoorStateType.Closed
                  || zone.MovingRooms
+                 || !_room.Visited
                  || _room.Encounter.DoorType == DoorExt.DoorType.Hidden))
         {
             _fill.color = _visitedColor;
             StartCoroutine(Teleport(primaryPlayer.Avatar));
         }
-        
+
         var vector = transform.position - Input.mousePosition;
         var f = _miniMap.CellSize / 2f;
         if (Mathf.Abs(vector.x) <= f && Mathf.Abs(vector.y) <= f)
@@ -86,34 +89,60 @@ public class MapTeleport : MonoBehaviour
 
     private IEnumerator Teleport(Entity entity)
     {
-        Vector2Int vector = _room.Position - Game.Instance.Simulation.Zone.CurrentRoom.Position;
-        int x = vector.x;
-        if (!_room.Neighbors.TryGetValue(x > 0 ? Direction.West : Direction.East, out _))
+        var vector = _room.Position - Game.Instance.Simulation.Zone.CurrentRoom.Position;
+        var x = vector.x;
+        Direction illegalDirection = Direction.None;
+        var westOrEast = x > 0 ? Direction.West : Direction.East;
+        if (x != 0 && !(_room.Neighbors.TryGetValue(westOrEast, out var neighborRoom) && neighborRoom.Visited))
         {
+            illegalDirection = westOrEast;
             x = 0;
         }
 
-        int y = vector.y;
-        if (!_room.Neighbors.TryGetValue(y > 0 ? Direction.South : Direction.North, out _))
+        var y = vector.y;
+        var southOrNorth = y > 0 ? Direction.South : Direction.North;
+        if (y != 0 && !(_room.Neighbors.TryGetValue(southOrNorth, out neighborRoom) && neighborRoom.Visited))
         {
+            illegalDirection = southOrNorth;
             y = 0;
         }
 
         Direction direction;
-        if (Mathf.Abs(x) - Mathf.Abs(y) > 0)
+        if (x == 0 && y == 0)
         {
-            direction = x > 0 ? Direction.West : Direction.East;
+            direction = Direction.None;
+            if (illegalDirection != Direction.None)
+            {
+                var opposite = illegalDirection.Opposite();
+                if (_room.Neighbors.TryGetValue(opposite, out neighborRoom) && neighborRoom.Visited)
+                {
+                    direction = opposite;
+                }
+            }
+
+            if (direction == Direction.None)
+            {
+                foreach (var key in _room.Neighbors.Keys)
+                {
+                    direction = key;
+                    break;
+                }
+            }
+        }
+        else if (Mathf.Abs(x) - Mathf.Abs(y) > 0)
+        {
+            direction = westOrEast;
         }
         else
         {
-            direction = y > 0 ? Direction.South : Direction.North;
+            direction = southOrNorth;
         }
 
         Game.Instance.FxManager.Emit("explosion4_large_rev", entity.Position, Vector3.zero, 1f);
-        yield return new WaitForSeconds(0.2f);
-        Vector3 vector2 = _room.GetStartPosition(direction).GetLocalSpawnPosition(0);
+        yield return new WaitForSeconds(Seconds);
+        var vector2 = _room.GetStartPosition(direction).GetLocalSpawnPosition(0);
         vector2 = new Vector3(vector2.x, 0f, vector2.z);
-        Vector3 vector3 = entity.transform.localEulerAngles;
+        var vector3 = entity.transform.localEulerAngles;
         Game.Instance.Simulation.Zone.SetCurrentRoom(Zone.RoomMoveType.Instant, _room, direction, vector2);
         Game.Instance.FxManager.Emit("explosion4_large", entity.Position, Vector3.zero, 1f);
         switch (direction)
