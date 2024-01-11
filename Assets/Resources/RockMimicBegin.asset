@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: RockMimicBegin
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(0,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,100)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ParallelSelector","NodeData":{"Offset":"(-577.907043,110)"},"ID":2,"Name":"Parallel
+        Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.WaitForCollidesEvent","NodeData":{"Offset":"(-100,110)"},"ID":3,"Name":"Wait
+        For Collides Event","Instant":true,"SharedEntitym_sourceOutput":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedVector3m_positionOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedVector3m_normalOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedVector3m_reflectOutput":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","IsShared":true,"Vector3mValue":"(0,0,0)"},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"SharedFloatm_timeout":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(0,100)"},"ID":4,"Name":"Inverter","Instant":true,"Children":[{"Type":"Thor.AllianceFilter","NodeData":{"Offset":"(0,100)"},"ID":5,"Name":"Alliance
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"List`1m_alliances":["Hostile"],"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":"","IsShared":true,"EntityListmValue":{}}}]}]},{"Type":"Thor.WaitForHitEvent","NodeData":{"Offset":"(60,110)"},"ID":6,"Name":"Wait
+        For Hit Event","Instant":true,"SharedEntitym_hitterOutput":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_sourceOutput":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedIntm_amountOutput":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"IsShared":true,"Int32mValue":0},"SharedDamageTypem_typeOutput":{"Type":"BehaviorDesigner.Runtime.SharedDamageType","Name":null,"IsShared":true,"DamageTypemValue":"Physical"},"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedBoolm_endOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatm_timeout":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(20,120)"},"ID":7,"Name":"Inverter","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-24,116)"},"ID":8,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Thor.AllianceFilter","NodeData":{"Offset":"(-50,110)"},"ID":9,"Name":"Alliance
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"List`1m_alliances":["Hostile"],"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":"","IsShared":true,"EntityListmValue":{}}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.SetSharedBool","NodeData":{"Offset":"(91,106)"},"ID":10,"Name":"Set
+        Shared Bool","Instant":true,"SharedBooltargetValue":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBooltargetVariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Wait","IsShared":true,"BooleanmValue":false}}]}]}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.ReturnSuccess","NodeData":{"Offset":"(-321.419342,143.048187)"},"ID":11,"Name":"Return
+        Success","Instant":true,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.62790489,108.372093)"},"ID":12,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.SharedVariables.CompareSharedBool","NodeData":{"Offset":"(-25.8380127,129.094513)"},"ID":13,"Name":"Compare
+        Shared Bool","Instant":true,"SharedBoolvariable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Wait","IsShared":true,"BooleanmValue":false},"SharedBoolcompareTo":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Thor.Wait","NodeData":{"Offset":"(133.2558,133.4884)"},"ID":14,"Name":"Wait","Instant":true,"Datam_data":{"SharedFloatmin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.3},"SharedFloatmax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandom":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}}]}]},{"Type":"Thor.FireCustomEvent","NodeData":{"Offset":"(-180,108)","Comment":"awake"},"ID":15,"Name":"Fire
+        Custom Event","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedStringm_name":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"awake"},"SharedEntitym_data":{"Type":"Thor.SharedEntity","Name":null},"SharedVector3m_position":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}},{"Type":"Thor.PropertyFilter","NodeData":{"Offset":"(-50,110)"},"ID":16,"Name":"Property
+        Filter","Instant":true,"SharedEntitym_compareWith":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"PropertyComparerm_comparer":{"BooleanlhsDynamic":true,"BooleanrhsDynamic":false,"StringlhsTypeName":"Thor.BehaviorExt","StringrhsTypeName":"Thor.Entity","StringlhsMemberName":"Toggle3","StringrhsMemberName":"Filterable","StringlhsValue":"","StringrhsValue":"False","StringcomparisonName":"==","Int32mComparisonNameHash":0,"SinglemRhsFloatValue":0},"SharedVariablem_input":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedEntityListm_output":{"Type":"Thor.SharedEntityList","Name":null,"IsShared":true,"EntityListmValue":{}}},{"Type":"Thor.LookAt","NodeData":{"Offset":"(60,110)"},"ID":17,"Name":"Look
+        At","Instant":true,"SharedEntitym_looker":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"TargetDatam_target":{"TargetTypetype":"Entity","SharedEntitytarget":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedVector3position":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","Vector3mValue":"(0,0,0)"},"SharedVector3direction":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","Vector3mValue":"(0,0,0)"}},"SharedVector3m_offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"","Vector3mValue":"(0,0,0)"},"SharedBoolm_flattenY":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedBoolm_snap":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true}},{"Type":"Thor.SetVisualValue","NodeData":{"Offset":"(177,110)","Comment":"state
+        2"},"ID":18,"Name":"Set Visual Value","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},"SharedStringm_state":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"state"},"SharedFloatm_value":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2}},{"Type":"Thor.PlayMusic","NodeData":{"Offset":"(311.8605,110)","ColorIndex":8},"ID":19,"Name":"Play
+        Music","Instant":true,"Stringm_name":"event:/Music/Mini_Boss","SharedBoolm_zoneMusic":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolm_crossfade":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Thor.Idle","NodeData":{"Offset":"(431.8605,110)"},"ID":20,"Name":"Idle","Instant":true,"SharedBoolm_hibernate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"Thor.SharedEntityList","Name":"Avatars","IsShared":true,"IsGlobal":true,"EntityListmValue":{}},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"Wait","IsShared":true,"BooleanmValue":false}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 1
+  m_restartWhenComplete: 1
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0
+  Variables:
+  - Name: Entities
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Avatars
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Items
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Projectiles
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Bosses
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Hazards
+    IsGlobal: 1
+    _type: Thor.SharedEntityList, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Player
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Zone
+    IsGlobal: 1
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Seed
+    IsGlobal: 1
+    _type: BehaviorDesigner.Runtime.SharedInt, BehaviorDesigner, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - Name: Self
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Owner
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Root
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Link
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Name: Target
+    IsGlobal: 0
+    _type: Thor.SharedEntity, UnderMine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

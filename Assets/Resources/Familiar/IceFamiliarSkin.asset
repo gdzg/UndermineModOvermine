@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1039079324, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
-  m_Name: SpeedItem
+  m_Script: {fileID: -214231816, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
+  m_Name: IceFamiliarSkin
   m_EditorClassIdentifier: 
-  m_guid: 5f926a35-c8a1-4d84-89e1-2852d16c4299
-  m_icon: {fileID: 21300000, guid: 0e5f5db596aa6d247b29bdf49f1bde46, type: 3}
-  m_portrait: {fileID: 0}
+  m_guid: 5ee28c98-ca2c-4f4c-a2e2-783edb34858b
+  m_icon: {fileID: 21300000, guid: 69b52406becc0d141b35366157f8a5b3, type: 3}
+  m_portrait: {fileID: 21300000, guid: 69b52406becc0d141b35366157f8a5b3, type: 3}
   m_displayName:
     m_id: 0
     m_text:
@@ -25,7 +25,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.displayName
+      mValue: Default Skin
   m_description:
     m_id: 0
     m_text:
@@ -36,7 +36,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.description
+      mValue: 
   m_flavor:
     m_id: 0
     m_text:
@@ -47,27 +47,22 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.flavor
+      mValue: 
   m_rarity: 0
   m_showInJournal: 1
   m_isDeprecated: 0
-  m_hint: 16777216
-  m_slot: blessing
-  m_audio: event:/Items/Item_Land
-  m_tags:
-  - m_value: blessing
-  m_costGroups:
-  - type: 3
-    costs:
-    - mAmount: 1
-      mData: {fileID: 11400000, guid: d7d8fa062578cd64b901fa19ae6142fb, type: 2}
+  m_hint: 536870912
+  m_slot: none
+  m_audio: 
+  m_tags: []
+  m_costGroups: []
   m_maxDropCount: -1
   m_isDefault: 1
-  m_isDefaultDiscovered: 1
+  m_isDefaultDiscovered: 0
   m_autoUnlock: 0
-  m_rerollable: 1
-  m_allowOnAltar: 1
-  m_pickedUpBehavior: {fileID: 11400000, guid: bdfbeb024cccdc14abd072884e1a2e72, type: 2}
+  m_rerollable: 0
+  m_allowOnAltar: 0
+  m_pickedUpBehavior: {fileID: 0}
   m_secondaryPickedUpBehavior: {fileID: 0}
   m_isSpecialDrop: 0
   m_isSpecialDiscovery: 0
@@ -77,3 +72,4 @@ MonoBehaviour:
   m_templateOverride: {fileID: 0}
   m_dropRequirements: []
   m_discoverRequirements: []
+  m_animation: {fileID: 11400000, guid: 0a3cf6dca96678b4bafb4aae9fdf8fe8, type: 2}

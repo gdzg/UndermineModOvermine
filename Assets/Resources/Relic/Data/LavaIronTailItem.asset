@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1039079324, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
-  m_Name: SpeedItem
+  m_Name: LavaIronTailItem
   m_EditorClassIdentifier: 
-  m_guid: 5f926a35-c8a1-4d84-89e1-2852d16c4299
-  m_icon: {fileID: 21300000, guid: 0e5f5db596aa6d247b29bdf49f1bde46, type: 3}
+  m_guid: ea5042dc-55ef-4cba-ac63-66a6cb879d2f
+  m_icon: {fileID: 21300000, guid: ddf50b6af6a16bb4b825e7c1403cac36, type: 3}
   m_portrait: {fileID: 0}
   m_displayName:
     m_id: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.displayName
+      mValue: "\u7194\u5CA9\u94C1\u5C3E"
   m_description:
     m_id: 0
     m_text:
@@ -36,7 +36,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.description
+      mValue: "1.\u9020\u6210\u7269\u7406\u4F24\u5BB3\u83B7\u5F97\u4F24\u5BB310%\u7684\u9EC4\u91D1;2.\u83B7\u53D6750\u9EC4\u91D1\u540E.\u53D7\u5230\u706B\u7130\u4F24\u5BB3\u4F1A\u83B7\u53D6\u9EC4\u91D1;3.\u83B7\u53D61500\u9EC4\u91D1\u540E,\u9020\u6210\u7269\u7406\u4F24\u5BB3\u65F6\u989D\u5916\u9020\u621010%\u706B\u7130\u4F24\u5BB3;4.\u83B7\u53D69999\u9EC4\u91D1\u540E,\u4E0D\u518D\u83B7\u53D6\u9EC4\u91D1."
   m_flavor:
     m_id: 0
     m_text:
@@ -47,27 +47,26 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Speed.flavor
+      mValue: "\u83B7\u53D6\u9EC4\u91D1\u6548\u679C\u5BF9boss\u65E0\u6548"
   m_rarity: 0
   m_showInJournal: 1
   m_isDeprecated: 0
-  m_hint: 16777216
-  m_slot: blessing
+  m_hint: 2097410
+  m_slot: relic
   m_audio: event:/Items/Item_Land
-  m_tags:
-  - m_value: blessing
+  m_tags: []
   m_costGroups:
-  - type: 3
+  - type: 1
     costs:
-    - mAmount: 1
-      mData: {fileID: 11400000, guid: d7d8fa062578cd64b901fa19ae6142fb, type: 2}
-  m_maxDropCount: -1
+    - mAmount: 600
+      mData: {fileID: 11400000, guid: 5c763899bb7eec34896bb32965c6e330, type: 2}
+  m_maxDropCount: 1
   m_isDefault: 1
   m_isDefaultDiscovered: 1
   m_autoUnlock: 0
   m_rerollable: 1
   m_allowOnAltar: 1
-  m_pickedUpBehavior: {fileID: 11400000, guid: bdfbeb024cccdc14abd072884e1a2e72, type: 2}
+  m_pickedUpBehavior: {fileID: 11400000, guid: ef3a32999dd894e4b8e8f408cbf10c20, type: 2}
   m_secondaryPickedUpBehavior: {fileID: 0}
   m_isSpecialDrop: 0
   m_isSpecialDiscovery: 0

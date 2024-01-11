@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 684f7a28cf11ef646b71c629aa6c1bb4
-folderAsset: yes
-DefaultImporter:
+guid: c79f7bd029e79f243b40247bb240a7bf
+NativeFormatImporter:
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: overmine.example
   assetBundleVariant: 
