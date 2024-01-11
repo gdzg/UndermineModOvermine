@@ -49,7 +49,7 @@ public class TryTakesDamageShieldExt : Extension
             Entity.UserData = num;
             hitEvent.DamageAmount = 0;
             Entity.FireEvent(EntityEvent.Proc.Create(Entity.Position));
-            Owner.GetExtension<AudioExt>().PlayOneShot(Proc.kPositiveAudio);
+            Owner.GetExtension<AudioExt>().PlayOneShot("event:/Items/Generic_Trigger_Positive");
             if (m_showImmuneKicker)
                 ShowImmuneKicker();
         }
@@ -58,7 +58,7 @@ public class TryTakesDamageShieldExt : Extension
             hitEvent.DamageAmount -= userData;
             Entity.UserData = 0;
             Entity.FireEvent(EntityEvent.Proc.Create(Entity.Position));
-            Owner.GetExtension<AudioExt>().PlayOneShot(Proc.kPositiveAudio);
+            Owner.GetExtension<AudioExt>().PlayOneShot("event:/Items/Generic_Trigger_Positive");
         }
     }
 

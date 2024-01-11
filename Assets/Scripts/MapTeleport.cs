@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Reflection;
 using Rewired;
 using Thor;
 using UnityEngine;
@@ -19,6 +22,9 @@ public class MapTeleport : MonoBehaviour
     private Color _currentColor;
     private Color _visitedColor;
     private Color _discoveredColor;
+    
+    private  static readonly MethodInfo Utils = 
+        Assembly.Load("UnderMine").GetType("Thor.QuickMove")?.GetMethod("CheckStatus", BindingFlags.Static | BindingFlags.Public);
 
 
     // Start is called before the first frame update
@@ -57,7 +63,7 @@ public class MapTeleport : MonoBehaviour
         if (!primaryPlayer.Input.controllers.hasKeyboard || !primaryPlayer.InputEnabled) return;
         if (_fill.color == _currentColor
             && keyboard.GetKeyDown(KeyCode.LeftAlt)
-            && !QuickMove.CheckStatus(primaryPlayer.Avatar)
+            && !(Utils != null && (bool)Utils.Invoke(null,new object[] { primaryPlayer.Avatar}))
             && !(currentRoom.DoorState == Room.DoorStateType.Closed
                  || zone.MovingRooms
                  || !_room.Visited
@@ -91,7 +97,7 @@ public class MapTeleport : MonoBehaviour
     {
         var vector = _room.Position - Game.Instance.Simulation.Zone.CurrentRoom.Position;
         var x = vector.x;
-        Direction illegalDirection = Direction.None;
+        var illegalDirection = Direction.None;
         var westOrEast = x > 0 ? Direction.West : Direction.East;
         if (x != 0 && !(_room.Neighbors.TryGetValue(westOrEast, out var neighborRoom) && neighborRoom.Visited))
         {

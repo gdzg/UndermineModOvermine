@@ -35,7 +35,7 @@ public class HitChanceExt : Extension
         {
             hitEvent.DamageAmount = 0;
             Entity.FireEvent(EntityEvent.Proc.Create(Entity.Position));
-            Owner.GetExtension<AudioExt>().PlayOneShot(Proc.kPositiveAudio);
+            Owner.GetExtension<AudioExt>().PlayOneShot("event:/Items/Generic_Trigger_Positive");
             if (m_showImmuneKicker)
                 ShowImmuneKicker();
         }
