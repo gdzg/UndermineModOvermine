@@ -79,7 +79,7 @@ SpriteRenderer:
   m_Size: {x: 0.59, y: 0.87}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1720368398708791248
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 302093662, guid: 1c8ec480ccbe12447bb0a78c5e04958b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_builtIn: -1
+  m_builtIn: 5
   m_spriteRenderer: {fileID: 5889661577123360027}
   m_spriteAnimations: []
   m_colorAnimations: []
@@ -309,7 +309,6 @@ GameObject:
   - component: {fileID: 3311646436319754994}
   - component: {fileID: 1028745349368196723}
   - component: {fileID: 3710644373860165853}
-  - component: {fileID: 1586582755282999756}
   m_Layer: 0
   m_Name: Familiar Entity
   m_TagString: Untagged
@@ -630,25 +629,6 @@ MonoBehaviour:
   m_Script: {fileID: 1058728248, guid: 421ae4f72b4255642983b93487241616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &1586582755282999756
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6690690750707791466}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 81fbb8de644d3994381859823ec23ba7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6793290997189177639
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,14 +699,14 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2078800f89351ab46aace43a094bed4a, type: 3}
   m_Color: {r: 0.08, g: 0.06453333, b: 0.0568, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

@@ -122,7 +122,7 @@ namespace Editor
                     Registry.LocalMachine.OpenSubKey(
                         @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 656350"))
                 {
-                    return (key?.GetValue("InstallLocation")?.ToString());
+                    return (key?.GetValue("InstallLocation")?.ToString())??@"F:\game\UnderMine.v1.2.1.Multi.9";
                 }
             }
             catch (Exception)

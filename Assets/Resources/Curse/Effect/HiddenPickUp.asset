@@ -20,40 +20,8 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: "{\r\n  \"EntryTask\": {\r\n    \"Type\": \"BehaviorDesigner.Runtime.Tasks.EntryTask\",\r\n   
-        \"ID\": 0,\r\n    \"Name\": \"Entry Task\",\r\n    \"Instant\": true,\r\n   
-        \"NodeData\": {\r\n      \"Offset\": \"(544,384)\"\r\n    }\r\n  },\r\n 
-        \"RootTask\": {\r\n    \"Type\": \"Thor.AddStatusEffect\",\r\n    \"ID\":
-        1,\r\n    \"Name\": \"Add Status Effect\",\r\n    \"Instant\": true,\r\n   
-        \"NodeData\": {\r\n      \"Offset\": \"(544,480)\"\r\n    },\r\n    \"SharedEntitym_target\":
-        {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Target\",\r\n     
-        \"IsShared\": true\r\n    },\r\n    \"SharedEntitym_statusEffect\": {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": null,\r\n      \"EntitymValue\":
-        0\r\n    },\r\n    \"StatusEffectDatam_data\": {\r\n      \"SharedIntlevel\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedInt\",\r\n       
-        \"Name\": null,\r\n        \"Int32mValue\": 0\r\n      },\r\n      \"SharedFloatduration\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedFloat\",\r\n       
-        \"Name\": null,\r\n        \"SinglemValue\": 0.0\r\n      },\r\n      \"SharedIntuserData\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedInt\",\r\n       
-        \"Name\": null,\r\n        \"Int32mValue\": 0\r\n      },\r\n      \"SharedStringuserString\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedString\",\r\n       
-        \"Name\": null,\r\n        \"StringmValue\": \"\"\r\n      },\r\n      \"SharedStringhint\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedString\",\r\n       
-        \"Name\": null,\r\n        \"StringmValue\": \"\"\r\n      },\r\n      \"SharedBoolsticky\":
-        {\r\n        \"Type\": \"BehaviorDesigner.Runtime.SharedBool\",\r\n       
-        \"Name\": null,\r\n        \"BooleanmValue\": false\r\n      },\r\n     
-        \"Booleanblocked\": false,\r\n      \"Int32modifiedLevel\": 0,\r\n      \"SinglemodifiedDuration\":
-        0.0,\r\n      \"BooleanmodifiedSticky\": false,\r\n      \"SingledurationRatio\":
-        1.0\r\n    },\r\n    \"SharedEntitym_source\": {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Self\",\r\n      \"IsShared\": true\r\n    }\r\n  },\r\n  \"Variables\":
-        [\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Self\",\r\n     
-        \"IsShared\": true\r\n    },\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Owner\",\r\n      \"IsShared\": true\r\n    },\r\n    {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Root\",\r\n      \"IsShared\":
-        true\r\n    },\r\n    {\r\n      \"Type\": \"Thor.SharedEntity\",\r\n     
-        \"Name\": \"Link\",\r\n      \"IsShared\": true\r\n    },\r\n    {\r\n     
-        \"Type\": \"Thor.SharedEntity\",\r\n      \"Name\": \"Target\",\r\n     
-        \"IsShared\": true\r\n    }\r\n  ]\r\n}"
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(544,384)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"Thor.AddStatusEffect","NodeData":{"Offset":"(34,180)"},"ID":1,"Name":"Add
+        Status Effect","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedEntitym_statusEffect":{"Type":"Thor.SharedEntity","Name":null,"EntitymValue":0},"StatusEffectDatam_data":{"SharedIntlevel":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedFloatduration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedIntuserData":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedStringuserString":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedStringhint":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoolsticky":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Booleanblocked":false,"Int32modifiedLevel":0,"SinglemodifiedDuration":0,"BooleanmodifiedSticky":false,"SingledurationRatio":1,"Booleandisable":false},"SharedEntitym_source":{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true}},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Link","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -63,7 +31,7 @@ MonoBehaviour:
         - {fileID: 4473314973597962199, guid: bac5fbb229cd2c046b8020a7c8b80e03, type: 3}
         byteData: 
         byteDataArray: 
-      Version: 1.5.7
+      Version: 1.7.1
   m_preProcess: 0
   m_autoStart: 1
   m_restartWhenComplete: 1

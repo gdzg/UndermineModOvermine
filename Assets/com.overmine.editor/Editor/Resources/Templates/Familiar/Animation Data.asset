@@ -15,20 +15,20 @@ MonoBehaviour:
   m_guid: 
   m_animations:
   - key: Idle
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0
   - key: FaceEast
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0
   - key: FaceWest
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0
   - key: AttackEast
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0
   - key: AttackWest
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0
   - key: Spawn
-    clip: {fileID: 7400000, guid: 50a90ec65cca88b4cbc610061a023e99, type: 2}
+    clip: {fileID: 0}
     unscaledTime: 0

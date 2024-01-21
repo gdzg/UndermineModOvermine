@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1226414609, guid: 421ae4f72b4255642983b93487241616, type: 3}
+  m_Name: MageSpawn
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(0,0)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(0,110)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ModSpawn","NodeData":{"Offset":"(-192,132)"},"ID":2,"Name":"Mod
+        Spawn","Instant":true,"TargetDatam_targetData":{"TargetTypetargetType":"RandomRoomPosition","SharedEntitytargetEntity":{"Type":"Thor.SharedEntity","Name":null},"SharedVector3targetPosition":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}},"SharedEntitym_entity":{"Type":"Thor.SharedEntity","Name":null,"EntitymValue":0},"SharedEntitym_output":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedEntityListm_outputList":{"Type":"Thor.SharedEntityList","Name":null,"IsShared":true,"EntityListmValue":{}},"SharedVector3m_offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"Spacem_offsetSpace":"Self","SharedVector3m_rotation":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3m_scale":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(1,1,1)"},"SharedEntitym_owner":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_link":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedEntitym_matchRotation":{"Type":"Thor.SharedEntity","Name":null,"IsShared":true},"SharedBoolm_flattenY":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_walkable":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_matchVisual":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolm_asMinion":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoolm_playSpawnAnimation":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"Thor.Emit","NodeData":{"Offset":"(-22,125)"},"ID":3,"Name":"Emit","Instant":true,"TargetDatam_target":{"TargetTypetype":"Entity","SharedEntitytarget":{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},"SharedVector3position":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3direction":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"}},"SharedVector3m_offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"Spacem_offsetSpace":"Self","SharedVector3m_velocity":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedBoolm_visualPosition":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatm_scale":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedStringm_name":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"explosion6"}},{"Type":"Thor.PlayAudio","NodeData":{"Offset":"(143,126)"},"ID":4,"Name":"Play
+        Audio","Instant":true,"SharedEntitym_target":{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},"Stringm_name":"event:/Items/Poof","AudioEventOperationm_operation":"PlayOnce"}]},"Variables":[{"Type":"Thor.SharedEntity","Name":"Self","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Owner","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Root","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Iterator","IsShared":true},{"Type":"Thor.SharedEntity","Name":"Target","IsShared":true},{"Type":"Thor.SharedEntityList","Name":"Targets","IsShared":true,"EntityListmValue":{}},{"Type":"Thor.SharedEntity","Name":"Source","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"LevelFloat","IsShared":true,"SinglemValue":0},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"UserData","IsShared":true,"Int32mValue":0},{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"Position","IsShared":true,"Vector3mValue":"(0,0,0)"},{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":"Level","IsShared":true,"Int32mValue":0},{"Type":"Thor.SharedDataObject","Name":"Blessing","IsShared":true},{"Type":"Thor.SharedDataObject","Name":"Relic","IsShared":true}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 8674367771460389143, guid: 23c23896b1ced1d449d222aac845f2fc, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.1
+  m_preProcess: 0
+  m_autoStart: 0
+  m_restartWhenComplete: 0
+  m_pauseWhenDisabled: 0
+  m_interruptable: 0

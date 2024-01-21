@@ -25,7 +25,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Example Familiar
+      mValue: "\u5C1A\u672A\u5B9E\u88C5"
   m_description:
     m_id: 0
     m_text:
@@ -36,7 +36,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Description
+      mValue: "\u5C1A\u672A\u5B9E\u88C5"
   m_flavor:
     m_id: 0
     m_text:
@@ -47,7 +47,7 @@ MonoBehaviour:
       mPropertyMapping: 
       mPropertyMappingOwner: {fileID: 0}
       mNetworkSync: 0
-      mValue: Flavor
+      mValue: "\u5C1A\u672A\u5B9E\u88C5"
   m_rarity: 0
   m_showInJournal: 1
   m_isDeprecated: 0
@@ -88,4 +88,73 @@ MonoBehaviour:
   m_levels: c800000020030000
   m_animation:
   - {fileID: 0}
-  m_abilities: []
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_abilities:
+  - name:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u6280\u80FD1"
+    description:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u65E0"
+  - name:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u6280\u80FD2"
+    description:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u65E0"
+  - name:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u6280\u80FD3"
+    description:
+      m_id: 0
+      m_text:
+        mIsShared: 0
+        mIsGlobal: 0
+        mIsDynamic: 0
+        mName: 
+        mPropertyMapping: 
+        mPropertyMappingOwner: {fileID: 0}
+        mNetworkSync: 0
+        mValue: "\u65E0"

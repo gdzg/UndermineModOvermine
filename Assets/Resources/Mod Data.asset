@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec80cf6996f1a7240814eaefb6e3dcc2, type: 3}
+  m_Name: Mod Data
+  m_EditorClassIdentifier: 
+  startMimics: {fileID: 11400000, guid: 217aab7767d66574a8dfedb13047b0ae, type: 2}
+  demonUI: {fileID: 277656212202838439, guid: d78ce0301e1affd499efcc7ef017da32, type: 3}
+  rockMimicBegin: {fileID: 11400000, guid: 5ea5d70fd02d164449c0695af17ba28d, type: 2}
+  largeCrystalProjectileHit: {fileID: 7277417477410502693, guid: f9a0a639518ffa843acb103d75168a17,
+    type: 3}
+  collectorRoomFamiliar: {fileID: 8581810258720613574, guid: 7e3b80a84c0fe5f478327ec7903daa68,
+    type: 3}
+  collectorRoomFamiliarVectors:
+  - {x: -8, y: 0, z: -0.7}
+  - {x: -4.8, y: 0, z: -0.7}
+  - {x: 4.8, y: 0, z: -0.7}
+  - {x: 8, y: 0, z: -0.7}
+  shopMarket: {fileID: 6690690750707791466, guid: fcefda80ae3868d4e905aa855e6f136d,
+    type: 3}
+  shopMarketVectors:
+  - {x: -5.5, y: 0, z: -4}
+  - {x: 5.5, y: 0, z: -4}
+  - {x: -3, y: 0, z: -5}
+  - {x: 3, y: 0, z: -5}
+  npc: {fileID: 652130194321304308, guid: 1a717bf1937241547ae1bcb54c051823, type: 3}
